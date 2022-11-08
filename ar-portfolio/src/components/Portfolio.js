@@ -3,6 +3,7 @@ import './Portfolio.css'
 import totr from '../assets/totr.png'
 import quickweather from '../assets/quickweather.jpeg';
 import quizly from '../assets/quizly.png'
+import SmallCal from '../assets/SmallCal.jpg'
 
 const data = [
     {
@@ -30,13 +31,11 @@ const data = [
         altText: 'small image of quiz app',
     },
     {
-        descriptionOne: 'The app allows the user to either find a recipe for a random cocktail or a specific one by searching by name or ingredient.',
-        descriptionTwo: 'It is fully responsive from XL to mobile devices so take it with you to your next get together and have fun!',
-        descriptionThree: 'Please drink responsibly and Happy Mixing!',
-        caption: 'Trivia on the rocks.',
-        projectUrl: 'https://andrearene.github.io/Trivia_on_the_rocks/',
-        imageSource: totr,
-        altText: 'a small sample shot of the cocktail application',
+        descriptionOne: 'Check out my cute little day planner! Useful for simply planning out your day. No need to keep a bunch of information from day to day. Just one day. Every day. This app shines on mobile devices so take it with you to plan your work day with ease!',
+        caption: 'SmallCal',
+        projectUrl: 'https://andrearene.github.io/Day_Planner/',
+        imageSource: SmallCal,
+        altText: 'image of calendar app',
     },
 ]
 
