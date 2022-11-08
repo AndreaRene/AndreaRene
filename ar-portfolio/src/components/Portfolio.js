@@ -14,13 +14,15 @@ const data = [
         projectUrl: 'https://andrearene.github.io/Trivia_on_the_rocks/',
         imageSource: totr,
         altText: 'a small sample shot of the cocktail application',
+        githubUrl: 'https://github.com/AndreaRene/Trivia_on_the_rocks'
     },
     {
         descriptionOne: "Here's a lightweight weather dashboard I've put together for some simple information about the weather in any city you can think of. Currently it only searches by city so you will get a surprise!  But keep an eye out for state and country selectors soon! This app looks amazing on mobile so try it out next time you're traveling!",
         caption: 'Quick Weather',
         projectUrl: 'https://andrearene.github.io/Weather_App/',
         imageSource: quickweather,
-        altText: 'small image of weather app'
+        altText: 'small image of weather app',
+        githubUrl: 'https://github.com/AndreaRene/Weather_App'
     },
     {
         descriptionOne: "I tried my hand at this little quiz app. Right now it's just five simple questions but I have many ideas about how it could be used.",
@@ -29,6 +31,7 @@ const data = [
         projectUrl: 'https://andrearene.github.io/Development_Quiz_App/',
         imageSource: quizly,
         altText: 'small image of quiz app',
+        githubUrl: 'https://github.com/AndreaRene/Development_Quiz_App'
     },
     {
         descriptionOne: 'Check out my cute little day planner! Useful for simply planning out your day. No need to keep a bunch of information from day to day. Just one day. Every day. This app shines on mobile devices so take it with you to plan your work day with ease!',
@@ -36,12 +39,13 @@ const data = [
         projectUrl: 'https://andrearene.github.io/Day_Planner/',
         imageSource: SmallCal,
         altText: 'image of calendar app',
+        githubUrl: 'https://github.com/AndreaRene/Day_Planner'
     },
 ]
 
 const Portfolio = () => {
     return (
-        <main>
+        <main className="workGrid mainSection">
             {data.map(item => {
                 return (
                     <Project descriptionOne={item.descriptionOne}
@@ -51,6 +55,7 @@ const Portfolio = () => {
                         projectUrl={item.projectUrl}
                         imageSource={item.imageSource}
                         altText={item.altText}
+                        githubUrl={item.githubUrl}
                     />
                 )
             })}

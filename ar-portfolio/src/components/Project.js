@@ -1,12 +1,13 @@
 import './Project.css';
 
-const Project = ({ descriptionOne, descriptionTwo, descriptionThree, caption, projectUrl, imageSource, altText }) => {
+const Project = ({ descriptionOne, descriptionTwo, descriptionThree, caption, projectUrl, imageSource, altText, githubUrl }) => {
     return (
-        <section className="workGrid mainSection">
+        <section>
             <div className="box1">
                 <p>{descriptionOne}</p>
                 <p>{descriptionTwo}</p>
                 <p>{descriptionThree}</p>
+                <p>Feel free to check out the repository on <a href={githubUrl} target="_">GitHub</a></p>
             </div>
 
             <figure className="box2">
