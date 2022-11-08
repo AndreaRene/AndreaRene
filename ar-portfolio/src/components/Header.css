@@ -1,0 +1,44 @@
+#topNav {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--mainBlue);
+    color: var(--lightBlue);
+
+}
+
+#nameLogo p:first-of-type {
+    font-size: 2rem;
+    font-family: 'Nothing You Could Do', cursive;
+    font-weight: bold;
+    text-shadow: -.05em -.05em var(--pink);
+}
+
+#topNav p {
+    text-align: center;
+}
+
+.navLink {
+    display: inline-block;
+    padding: .8rem .5rem;
+}
+
+.navClick {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--lightBlue);
+}
+
+.navClick:hover {
+    font-weight: bolder;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-thickness: .2rem;
+    text-decoration-color: var(--pink);
+    color: var(--green);
+}
