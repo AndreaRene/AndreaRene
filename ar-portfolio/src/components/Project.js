@@ -7,7 +7,7 @@ const Project = ({ descriptionOne, descriptionTwo, descriptionThree, caption, pr
                 <p>{descriptionOne}</p>
                 <p>{descriptionTwo}</p>
                 <p>{descriptionThree}</p>
-                <p>Feel free to check out the repository on <a href={githubUrl} target="_">GitHub</a></p>
+                <p>You can check out the repository on <a href={githubUrl} target="_">GitHub</a></p>
             </div>
 
             <figure className="box2">
