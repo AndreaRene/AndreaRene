@@ -1,16 +1,28 @@
 import './Project.css';
 
-const Project = ({ descriptionOne, descriptionTwo, descriptionThree, caption, projectUrl, imageSource, altText, githubUrl }) => {
+const Project = ({ descriptionOne, descriptionTwo, descriptionThree, caption, projectUrl, imageSource, altText, githubUrl, boxes }) => {
+    let count = 0;
+    if (boxes === 0) {
+        count = 0;
+    } else if (boxes === 1) {
+        count = 2;
+    } else if (boxes === 2) {
+        count = 4;
+    } else if (boxes === 3) {
+        count = 6;
+    }
+    console.log('count' + count);
+    console.log('boxes' + boxes);
     return (
         <section>
-            <div className="box1">
+            <div className={'box' + (count + 1)}>
                 <p>{descriptionOne}</p>
                 <p>{descriptionTwo}</p>
                 <p>{descriptionThree}</p>
                 <p>You can check out the repository on <a href={githubUrl} target="_">GitHub</a></p>
             </div>
 
-            <figure className="box2">
+            <figure className={'box' + (count + 2)}>
                 <a href={projectUrl} target="_"><img src={imageSource}
                     alt={altText} /></a>
                 <figcaption>{caption}</figcaption>

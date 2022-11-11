@@ -1,6 +1,10 @@
 import './Header.css';
 
-const Header = () => {
+const Header = (props) => {
+    const clickHandler = (event) => {
+        const id = event.target.id;
+        props.setContent(id)
+    }
     return (
         <header id="topNav">
             <div id="nameLogo">
@@ -9,9 +13,10 @@ const Header = () => {
             </div>
             <nav>
                 <ul>
-                    <li className="navLink"><a href="#top" className="navClick">Who I Am</a></li>
-                    <li className="navLink"><a href="#myWork" className="navClick">What I've Done</a></li>
-                    <li className="navLink"><a href="#contact" className="navClick">Let's Connect</a></li>
+                    <li className="navLink"><a href="#" className="navClick" id="about" onClick={clickHandler}>Who I Am</a></li>
+                    <li className="navLink"><a href="#" className="navClick" id="portfolio" onClick={clickHandler}>What I've Done</a></li>
+                    <li className="navLink"><a href="#" className="navClick" id="contact" onClick={clickHandler}>Let's Connect</a></li>
+                    <li className="navLink"><a href="#" className="navClick" id="resume" onClick={clickHandler}>Resumé</a></li>
                 </ul>
             </nav>
         </header>

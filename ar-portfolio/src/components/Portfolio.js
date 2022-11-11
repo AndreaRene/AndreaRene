@@ -46,9 +46,11 @@ const data = [
 const Portfolio = () => {
     return (
         <main className="workGrid mainSection">
-            {data.map(item => {
+            {data.map((item, i) => {
                 return (
-                    <Project descriptionOne={item.descriptionOne}
+                    <Project key={i}
+                        boxes={i}
+                        descriptionOne={item.descriptionOne}
                         descriptionTwo={item.descriptionTwo}
                         descriptionThree={item.descriptionThree}
                         caption={item.caption}
