@@ -1,9 +1,10 @@
-import Project from './Project'
-import './Portfolio.css'
-import totr from '../assets/totr.png'
+import Project from './Project';
+import './Portfolio.css';
+import './mediaQueries.css';
+import totr from '../assets/totr.png';
 import quickweather from '../assets/quickweather.jpeg';
-import quizly from '../assets/quizly.png'
-import SmallCal from '../assets/SmallCal.jpg'
+import quizly from '../assets/quizly.png';
+import SmallCal from '../assets/SmallCal.jpg';
 
 const data = [
     {

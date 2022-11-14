@@ -18,10 +18,15 @@ html {
 }
 
 body {
-  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
   padding-top: 6rem;
+  margin: 0;
   line-height: 1;
-  font-family: sans-serif;
+  font-family: 'Comfortaa', cursive;
+  background-color: var(--lightBlue);
 }
 
 h1,
@@ -53,4 +58,9 @@ ul {
 .pink {
   font-weight: bolder;
   color: var(--pink);
+}
+
+.mainSection {
+  padding: 3em .5em;
+  flex-grow: 1;
 }

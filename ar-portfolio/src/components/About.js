@@ -1,25 +1,29 @@
 import './About.css';
-import avatarthumb from '../assets/avatarthumb.jpg'
+import './mediaQueries.css';
+import avatarthumb from '../assets/avatarthumb.jpg';
 
 const About = () => {
     return (
-        <section id="aboutMe" class="mainSection">
-            <h1>
+        <main id='aboutMe' className='mainSection'>
+            <h1 className='left'>
                 <p>Hi, there.</p>
-                <p>I'm <span class="pink">Andrea</span>.</p>
+                <p>I'm <span className='pink'>Andrea</span>.</p>
             </h1>
-            {/* <img src="assets/imgs/avatarthumb.jpg" alt="stylized image of andrea's face"> */}
-            {avatarthumb}
-            <div><p>I just really love</p>
-                <p>JavaScript, ok?</p></div>
-            <div><p>I produce concise and</p>
-                <p><span class="pink">performant</span> code with an</p>
-                <p>emphasis on future-proofing.</p></div>
-            <h2>
+            <img src={avatarthumb} alt="andrea's face in black and white with colorful glasses" />
+            <div className='right'>
+                <p>I just really love</p>
+                <p>JavaScript... ok?</p>
+            </div>
+            <div className='left'>
+                <p>I produce concise and</p>
+                <p><span class='pink'>performant</span> code with an</p>
+                <p>emphasis on future-proofing.</p>
+            </div>
+            <h2 className='right'>
                 <p>Let's go build</p>
-                <p>something <span class="pink">together</span>.</p>
+                <p>something <span className='pink'>together</span>.</p>
             </h2>
-        </section>
+        </main>
     )
 }
 

@@ -9,15 +9,15 @@
 
 #aboutMe h1,
 #aboutMe h2,
-#aboutMe p {
-    /* width: 30%; */
+#aboutMe div {
+    width: 30%;
     height: auto;
     white-space: nowrap;
 }
 
 #aboutMe h1 {
     margin: auto 0;
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 
@@ -28,12 +28,25 @@
     text-align: right;
 }
 
-#aboutMe p:first-of-type {
+#aboutMe div:first-of-type {
     margin: auto 0;
-    text-align: right;
     white-space: normal;
 }
 
 #aboutMe p {
     font-size: 1.5em;
+}
+
+#aboutMe img {
+    width: 15%;
+    border: .2em solid var(--mainBlue);
+    border-radius: 50%;
+}
+
+#aboutMe .right {
+    text-align: right;
+}
+
+#aboutMe .left {
+    text-align: left;
 }

@@ -1,4 +1,5 @@
 import './Project.css';
+import './mediaQueries.css';
 
 const Project = ({ descriptionOne, descriptionTwo, descriptionThree, caption, projectUrl, imageSource, altText, githubUrl, boxes }) => {
     let count = 0;

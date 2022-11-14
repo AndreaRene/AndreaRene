@@ -1,4 +1,5 @@
 import './Header.css';
+import './mediaQueries.css';
 
 const Header = (props) => {
     const clickHandler = (event) => {
@@ -6,12 +7,12 @@ const Header = (props) => {
         props.setContent(id)
     }
     return (
-        <header id="topNav">
-            <div id="nameLogo">
-                <p>Andrea René</p>
-                <p>Presto</p>
-            </div>
-            <nav>
+        <header>
+            <nav id="topNav">
+                <div id="nameLogo">
+                    <p>Andrea René</p>
+                    <p>Presto</p>
+                </div>
                 <ul>
                     <li className="navLink"><a href="#" className="navClick" id="about" onClick={clickHandler}>Who I Am</a></li>
                     <li className="navLink"><a href="#" className="navClick" id="portfolio" onClick={clickHandler}>What I've Done</a></li>
