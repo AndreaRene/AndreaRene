@@ -1,13 +1,14 @@
 import './App.css';
 import Header from './components/Header';
 import Portfolio from './components/Portfolio';
+import About from './components/About';
 import { useState } from 'react';
 function App() {
   const [content, setContent] = useState('about');
   const Rendered = () => {
     switch (content) {
       case 'about':
-        //return <About />
+        return <About />
         break;
       case 'portfolio':
         return <Portfolio />

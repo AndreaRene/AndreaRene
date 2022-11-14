@@ -19,7 +19,7 @@ html {
 
 body {
   min-height: 100%;
-  padding-top: 5.5rem;
+  padding-top: 6rem;
   line-height: 1;
   font-family: sans-serif;
 }
@@ -48,4 +48,9 @@ code {
 ol,
 ul {
   list-style: none;
+}
+
+.pink {
+  font-weight: bolder;
+  color: var(--pink);
 }

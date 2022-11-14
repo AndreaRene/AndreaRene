@@ -1,0 +1,39 @@
+#aboutMe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5rem;
+    padding: 4rem 10rem;
+    color: var(--mainBlue);
+}
+
+#aboutMe h1,
+#aboutMe h2,
+#aboutMe p {
+    /* width: 30%; */
+    height: auto;
+    white-space: nowrap;
+}
+
+#aboutMe h1 {
+    margin: auto 0;
+    font-size: 3em;
+}
+
+
+#aboutMe h2 {
+    margin-top: auto;
+    width: 50%;
+    font-size: 2em;
+    text-align: right;
+}
+
+#aboutMe p:first-of-type {
+    margin: auto 0;
+    text-align: right;
+    white-space: normal;
+}
+
+#aboutMe p {
+    font-size: 1.5em;
+}
