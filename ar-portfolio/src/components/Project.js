@@ -11,8 +11,6 @@ const Project = ({ descriptionOne, descriptionTwo, descriptionThree, caption, pr
     } else if (boxes === 3) {
         count = 6;
     }
-    console.log('count' + count);
-    console.log('boxes' + boxes);
     return (
         <section>
             <div className={'box' + (count + 1)}>
