@@ -15,7 +15,7 @@ const About = () => {
             </div>
             <div className='left'>
                 <p>I produce concise and</p>
-                <p><span class='pink'>performant</span> code with an</p>
+                <p><span className='pink'>performant</span> code with an</p>
                 <p>emphasis on future-proofing.</p>
             </div>
             <h2 className='right'>

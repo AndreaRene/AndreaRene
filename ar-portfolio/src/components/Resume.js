@@ -7,34 +7,34 @@ const Resume = () => {
             <p>Platforms:</p>
             <div className='icons'>
 
-                <i class="devicon-github-original colored"></i>
-                <i class="devicon-heroku-plain colored"></i>
+                <i className="devicon-github-original colored"></i>
+                <i className="devicon-heroku-plain colored"></i>
             </div>
             <p>Languages:</p>
             <div className='icons'>
 
-                <i class="devicon-html5-plain colored"></i>
-                <i class="devicon-css3-plain colored"></i>
-                <i class="devicon-javascript-plain"></i>
+                <i className="devicon-html5-plain colored"></i>
+                <i className="devicon-css3-plain colored"></i>
+                <i className="devicon-javascript-plain"></i>
             </div>
             <p>Frameworks & Libraries:</p>
             <div className='icons'>
 
-                <i class="devicon-bootstrap-plain colored"></i>
-                <i class="devicon-jquery-plain colored"></i>
-                <i class="devicon-express-original colored"></i>
-                <i class="devicon-react-original"></i>
+                <i className="devicon-bootstrap-plain colored"></i>
+                <i className="devicon-jquery-plain colored"></i>
+                <i className="devicon-express-original colored"></i>
+                <i className="devicon-react-original"></i>
             </div>
 
             <p>Technologies:</p>
             <div className='icons'>
-                <i class="devicon-handlebars-plain colored"></i>
-                <i class="devicon-git-plain colored"></i>
-                <i class="devicon-nodejs-plain"></i>
-                <i class="devicon-mysql-plain colored"></i>
-                <i class="devicon-sequelize-plain colored"></i>
-                <i class="devicon-mongodb-plain colored"></i>
-                <i class="devicon-graphql-plain colored"></i>
+                <i className="devicon-handlebars-plain colored"></i>
+                <i className="devicon-git-plain colored"></i>
+                <i className="devicon-nodejs-plain"></i>
+                <i className="devicon-mysql-plain colored"></i>
+                <i className="devicon-sequelize-plain colored"></i>
+                <i className="devicon-mongodb-plain colored"></i>
+                <i className="devicon-graphql-plain colored"></i>
             </div>
 
             <a id='downloadResume' download='AndreaReneResume.pdf' href={resume}>Download my resume!</a>
