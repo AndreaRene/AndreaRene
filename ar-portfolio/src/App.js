@@ -3,9 +3,10 @@ import './App.css';
 import Header from './components/Header';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
-
+// why is eslint saying "expecting a default case"
 function App() {
   const [content, setContent] = useState('about');
   const Rendered = () => {
@@ -17,11 +18,11 @@ function App() {
         return <Portfolio />
         break;
       case 'contact':
-        //return <Contact />
+        return <Contact />
         break;
       case 'resume':
         return <Resume />
-        break
+        break;
     }
   }
   return (
