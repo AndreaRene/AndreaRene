@@ -1,0 +1,61 @@
+.boxGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 45%;
+}
+
+.featuredWork {
+    display: flex;
+    width: 100%;
+}
+
+.boxSection3,
+.boxSection4 {
+    flex-direction: row-reverse;
+}
+
+.box {
+    width: 48%;
+    padding: 1em;
+    color: var(--mainBlue)
+}
+
+.box p {
+    margin: 1rem;
+    line-height: 1.3rem;
+    text-align: justify;
+}
+
+.box img {
+    width: 100%;
+}
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    top: .2rem;
+    left: 3.2rem;
+    width: 60%;
+    padding: .7em 1em;
+    text-align: center;
+    background-color: var(--mainBlue);
+    color: var(--lightBlue);
+}
+
+@media (min-width: 1450px) {}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 768px) {}
+
+@media (min-width: 560px) and (max-width: 768px) {}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 380px) {}

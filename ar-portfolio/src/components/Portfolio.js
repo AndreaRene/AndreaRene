@@ -4,7 +4,19 @@ import totr from '../assets/totr.png';
 import quickweather from '../assets/quickweather.jpeg';
 import quizly from '../assets/quizly.png';
 import SmallCal from '../assets/SmallCal.jpg';
+import pom from '../assets/pom.png'
 
+const feature = [
+    {
+        descriptionOne: 'I got together with a group of friends and we decided we all wanted to see less hatred online and in social media. One thing that we discussed was the visibility that mental health is getting. We agreed that it is still not enough, so we wanted to make a community.',
+        descriptionTwo: 'With this site, users will be able to come together and support one another through good and bad, ups and downs, thick and thin. Mental health is a serious concern and people need a safe space to be able to talk about it without fear.',
+        caption: 'Peace Of Mind',
+        projectUrl: 'https://peace-of-mind-app.herokuapp.com/',
+        imageSource: pom,
+        altText: 'a small image of the website',
+        githubUrl: 'https://github.com/AndreaRene/Andrea_Rene_Portfolio'
+    },
+]
 const data = [
     {
         descriptionOne: 'The app allows the user to either find a recipe for a random cocktail or a specific one by searching by name or ingredient.',
@@ -45,11 +57,23 @@ const data = [
 
 const Portfolio = () => {
     return (
-        <main className="workGrid mainSection">
+        <main className="workGrid mainWork mainSection">
+            <header className='featuredWork'>
+                <div className='featureBox'>
+                    <p>{feature.descriptionOne}</p>
+                    <p>{feature.descriptionTwo}</p>
+                    <p>You can check out the repository on <a href={feature.githubUrl} target="_">GitHub</a></p>
+                </div>
+                <figure className='featureBox'>
+                    <a href={feature.projectUrl} target="_"><img src={feature.imageSource}
+                        alt={feature.altText} /></a>
+                    <figcaption>{feature.caption}</figcaption>
+                </figure>
+            </header>
             {data.map((item, i) => {
                 return (
                     <Project key={i}
-                        boxes={i}
+                        sections={i}
                         descriptionOne={item.descriptionOne}
                         descriptionTwo={item.descriptionTwo}
                         descriptionThree={item.descriptionThree}

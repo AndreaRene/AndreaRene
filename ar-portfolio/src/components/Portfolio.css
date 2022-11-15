@@ -1,44 +1,20 @@
 .workGrid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.boxSection {
-    display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 45%;
 }
 
-.box {
-    width: 48%;
-    padding: 1em;
-    color: var(--mainBlue)
-}
+@media (min-width: 1450px) {}
 
-.box p {
-    margin: 1rem;
-    line-height: 1.3rem;
-    text-align: justify;
-}
+@media (max-width: 1200px) {}
 
-.box img {
-    width: 100%;
-}
+@media (max-width: 1024px) {}
 
-figure {
-    position: relative;
-}
+@media (max-width: 768px) {}
 
-figcaption {
-    position: absolute;
-    top: .2rem;
-    left: 3.2rem;
-    width: 60%;
-    padding: .7em 1em;
-    text-align: center;
-    background-color: var(--mainBlue);
-    color: var(--lightBlue);
-}
+@media (min-width: 560px) and (max-width: 768px) {}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 380px) {}
