@@ -57,7 +57,7 @@ const data = [
 
 const Portfolio = () => {
     return (
-        <main className="workGrid mainWork mainSection">
+        <main className="workGrid mainSection">
             <header className='featuredWork'>
                 <div className='featureBox'>
                     <p>{feature.descriptionOne}</p>
