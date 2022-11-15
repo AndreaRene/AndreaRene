@@ -19,13 +19,22 @@
 }
 
 p {
-    /* margin: 1rem; */
+    margin: .7rem 0;
     line-height: 1.3rem;
     text-align: justify;
 }
 
 img {
     width: 100%;
+}
+
+i {
+    font-size: 2rem;
+    color: var(--mainBlue);
+}
+
+a {
+    text-decoration: none;
 }
 
 figure {
@@ -48,12 +57,17 @@ figcaption {
 @media (max-width: 1450px) {
 
     p {
-        font-size: .8rem;
+        font-size: .9rem;
         line-height: 1rem;
     }
 }
 
-@media (max-width: 1200px) {}
+@media (max-width: 1200px) {
+
+    figcaption {
+        font-size: .8rem;
+    }
+}
 
 @media (max-width: 1024px) {}
 

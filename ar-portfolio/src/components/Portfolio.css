@@ -3,12 +3,17 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 0;
+    /* padding: 0; */
 }
 
 @media (min-width: 1450px) {}
 
-@media (max-width: 1200px) {}
+@media (max-width: 1200px) {
+
+    .workGrid {
+        padding: .5rem 0;
+    }
+}
 
 @media (max-width: 1024px) {}
 
