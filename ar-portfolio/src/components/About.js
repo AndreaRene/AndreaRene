@@ -23,7 +23,9 @@ const About = () => {
                 <p>something <span className='pink'>together</span>.</p>
             </h2>
             <p id='info'>
-
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab soluta officiis enim quibusdam? Tempore consequuntur accusamus quam quia aliquam! Consectetur asperiores quam distinctio ducimus perspiciatis architecto odit minus quos culpa.
+                Sunt doloremque praesentium ratione dolorem asperiores tempora culpa cupiditate libero est labore nisi dolorum iste omnis quidem eaque consequatur quibusdam, qui, molestias sed ea, fugit amet? Quidem vel ab blanditiis?
+                Dolorem unde explicabo in nulla incidunt aliquam quo. Quas, dignissimos sit. Fugit neque, minus beatae non est, numquam, reprehenderit repellat soluta nostrum fuga unde id consequuntur incidunt aliquam voluptate facilis?
             </p>
         </main>
     )
