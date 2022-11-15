@@ -2,12 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 45%;
-}
-
-.featuredWork {
-    display: flex;
-    width: 100%;
+    width: 45%;
 }
 
 .boxSection3,

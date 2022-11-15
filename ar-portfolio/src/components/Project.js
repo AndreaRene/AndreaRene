@@ -3,16 +3,16 @@ import './Project.css';
 const Project = ({ descriptionOne, descriptionTwo, descriptionThree, caption, projectUrl, imageSource, altText, githubUrl, sections }) => {
     let count = 0;
     if (sections === 0) {
-        count = 0;
-    } else if (sections === 1) {
         count = 1;
-    } else if (sections === 2) {
+    } else if (sections === 1) {
         count = 2;
-    } else if (sections === 3) {
+    } else if (sections === 2) {
         count = 3;
+    } else if (sections === 3) {
+        count = 4;
     }
     return (
-        <section className={'boxGroup boxSection' + (count + 1)}>
+        <section className={'boxGroup boxSection' + (count)}>
             <div className={'box'}>
                 <p>{descriptionOne}</p>
                 <p>{descriptionTwo}</p>
