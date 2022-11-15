@@ -20,6 +20,14 @@
 .icons i {
     margin: 1rem;
     font-size: 3rem;
+    color: var(--mainBlue)
+}
+
+.icons img {
+    margin: 1rem;
+    height: 3rem;
+    width: auto;
+
 }
 
 .resumePage p {
