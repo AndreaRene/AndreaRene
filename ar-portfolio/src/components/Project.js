@@ -1,5 +1,4 @@
 import './Project.css';
-import './mediaQueries.css';
 
 const Project = ({ descriptionOne, descriptionTwo, descriptionThree, caption, projectUrl, imageSource, altText, githubUrl, boxes }) => {
     let count = 0;
@@ -13,21 +12,22 @@ const Project = ({ descriptionOne, descriptionTwo, descriptionThree, caption, pr
         count = 6;
     }
     return (
-        <section>
-            <div className={'box' + (count + 1)}>
+        <section className='boxSection'>
+            <div className={'box box' + (count + 1)}>
                 <p>{descriptionOne}</p>
                 <p>{descriptionTwo}</p>
                 <p>{descriptionThree}</p>
                 <p>You can check out the repository on <a href={githubUrl} target="_">GitHub</a></p>
             </div>
 
-            <figure className={'box' + (count + 2)}>
+            <figure className={'box box' + (count + 2)}>
                 <a href={projectUrl} target="_"><img src={imageSource}
                     alt={altText} /></a>
                 <figcaption>{caption}</figcaption>
             </figure>
         </section>
     )
-};
+
+}
 
 export default Project;

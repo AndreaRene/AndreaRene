@@ -1,0 +1,37 @@
+.resumePage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#downloadResume {
+    margin: 2rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    background-color: var(--pink);
+    font-size: 1.2rem;
+    color: var(--lightBlue);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.icons i {
+    margin: 1rem;
+    font-size: 3rem;
+}
+
+.resumePage p {
+    margin-bottom: 1rem;
+    color: var(--mainBlue);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.icons {
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

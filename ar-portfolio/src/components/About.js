@@ -1,5 +1,4 @@
 import './About.css';
-import './mediaQueries.css';
 import avatarthumb from '../assets/avatarthumb.jpg';
 
 const About = () => {

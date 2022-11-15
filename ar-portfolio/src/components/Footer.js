@@ -1,6 +1,4 @@
 import './Footer.css';
-import './mediaQueries.css';
-
 const Footer = () => {
     return (
         <footer id="pageFooter">

@@ -1,5 +1,4 @@
 import './Header.css';
-import './mediaQueries.css';
 
 const Header = (props) => {
     const clickHandler = (event) => {
