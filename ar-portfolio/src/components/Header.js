@@ -1,9 +1,13 @@
 import './Header.css';
+import { useState } from 'react';
 
 const Header = (props) => {
+    const [activePage, setActivePage] = useState('about')
     const clickHandler = (event) => {
+        event.preventDefault();
         const id = event.target.id;
         props.setContent(id)
+        setActivePage(id);
     }
     return (
         <header>
@@ -13,10 +17,10 @@ const Header = (props) => {
                     <p>Presto</p>
                 </div>
                 <ul>
-                    <li className="navLink"><a href="#about" className="navClick" id="about" onClick={clickHandler}>Who I Am</a></li>
-                    <li className="navLink"><a href="#portfolio" className="navClick" id="portfolio" onClick={clickHandler}>What I've Done</a></li>
-                    <li className="navLink"><a href="#contact" className="navClick" id="contact" onClick={clickHandler}>Let's Connect</a></li>
-                    <li className="navLink"><a href="#resume" className="navClick" id="resume" onClick={clickHandler}>Resumé</a></li>
+                    <li className="navLink"><a href="#" className={`navClick ${activePage === 'about' ? 'active' : ''}`} id="about" onClick={clickHandler}>Who I Am</a></li>
+                    <li className="navLink"><a href="#" className={`navClick ${activePage === 'portfolio' ? 'active' : ''}`} id="portfolio" onClick={clickHandler}>What I've Done</a></li>
+                    <li className="navLink"><a href="#" className={`navClick ${activePage === 'contact' ? 'active' : ''}`} id="contact" onClick={clickHandler}>Let's Connect</a></li>
+                    <li className="navLink"><a href="#" className={`navClick ${activePage === 'resume' ? 'active' : ''}`} id="resume" onClick={clickHandler}>Resumé</a></li>
                 </ul>
             </nav>
         </header>
