@@ -13,7 +13,7 @@ const Header = (props) => {
                     <p>Presto</p>
                 </div>
                 <ul>
-                    <li className="navLink"><a href="#" className="navClick" id="about" onClick={clickHandler}>Who I Am</a></li>
+                    <li className="navLink" activeClassName='active'><a href="#" className="navClick" id="about" onClick={clickHandler}>Who I Am</a></li>
                     <li className="navLink"><a href="#" className="navClick" id="portfolio" onClick={clickHandler}>What I've Done</a></li>
                     <li className="navLink"><a href="#" className="navClick" id="contact" onClick={clickHandler}>Let's Connect</a></li>
                     <li className="navLink"><a href="#" className="navClick" id="resume" onClick={clickHandler}>Resumé</a></li>

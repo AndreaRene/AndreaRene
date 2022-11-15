@@ -10,7 +10,7 @@ const About = () => {
             </h1>
             <img src={avatarthumb} alt="andrea's face in black and white with colorful glasses" />
             <div className='right'>
-                <p>I just really love</p>
+                <p>I just really like</p>
                 <p>JavaScript... ok?</p>
             </div>
             <div className='left'>
