@@ -20,7 +20,7 @@ import README from '../assets/readmeGen.png'
 // ]
 const data = [
     {
-        descriptionOne: 'I got together with a group of friends and we decided we all wanted to see less hatred online and in social media. One thing that we discussed was the visibility that mental health is getting. We agreed that it is still not enough, so we wanted to make a community.',
+        descriptionOne: 'A group of friends and I discussed the visibility that mental health is getting. We agreed that it is still not enough.',
         descriptionTwo: 'With this site, users will be able to come together and support one another through good and bad, ups and downs, thick and thin. Mental health is a serious concern and people need a safe space to be able to talk about it without fear.',
         caption: 'Peace Of Mind',
         projectUrl: 'https://peace-of-mind-app.herokuapp.com/',
@@ -91,7 +91,8 @@ const Portfolio = () => {
             </header> */}
             {data.map((item, i) => {
                 return (
-                    <Project key={i}
+                    <Project
+                        key={i}
                         sections={i}
                         descriptionOne={item.descriptionOne}
                         descriptionTwo={item.descriptionTwo}
