@@ -32,33 +32,42 @@ const Contact = () => {
         setName('');
         setEmail('');
         setComment('');
+        setErrorMessage('');
     };
 
     return (
-        <form id='contactForm'>
-            <label htmlFor="name" className='formText'>Your Name:</label>
-            <input type="text" id="name" name="name" value={name} onChange={handleChange} className='formInput'
-                onBlur={() => {
-                    if (name.length === 0) {
-                        alert('name field is required');
-                    }
-                }} />
-            <label htmlFor="email" className='formText'>Your Email Address:</label>
-            <input type="text" id="email" name="email" value={email} onChange={handleChange} className='formInput'
-                onBlur={() => {
-                    if (email.length === 0) {
-                        alert('email required');
-                    }
-                }} />
-            <label htmlFor="comment" className='formText'>Comment:</label>
-            <textarea id="comment" name="comment" value={comment} onChange={handleChange} className='formInput'
-                onBlur={() => {
-                    if (comment.length === 0) {
-                        alert('comment required');
-                    }
-                }} />
-            <input type='submit' value='submit' />
-        </form>
+        <div>
+            {errorMessage && (
+                <div>
+                    <p className="error-text">{errorMessage}</p>
+                </div>
+            )}
+            <form id='contactForm'>
+                <label htmlFor="name" className='formText'>Your Name:</label>
+                <input type="text" id="name" name="name" value={name} onChange={handleChange} className='formInput'
+                    onBlur={() => {
+                        if (name.length === 0) {
+                            setErrorMessage('You must provide a name');
+                        }
+                    }} />
+                <label htmlFor="email" className='formText'>Your Email Address:</label>
+                <input type="text" id="email" name="email" value={email} onChange={handleChange} className='formInput'
+                    onBlur={() => {
+                        if (email.length === 0 || !validateEmail(email)) {
+                            setErrorMessage('You must provide a valid email');
+                        }
+                    }} />
+                <label htmlFor="comment" className='formText'>Comment:</label>
+                <textarea id="comment" name="comment" value={comment} onChange={handleChange} className='formInput'
+                    onBlur={() => {
+                        if (comment.length === 0) {
+                            setErrorMessage('You must provide a comment');
+                        }
+                    }} />
+                <button type="button" onClick={handleSubmit}>Submit</button>
+            </form>
+
+        </div>
     )
 }
 

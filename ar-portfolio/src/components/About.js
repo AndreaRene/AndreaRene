@@ -22,7 +22,9 @@ const About = () => {
                 <p>Let's go build</p>
                 <p>something <span className='pink'>together</span>.</p>
             </h2>
-            <p id='info'>sfdgsdfgfg</p>
+            <p id='info'>
+
+            </p>
         </main>
     )
 }
