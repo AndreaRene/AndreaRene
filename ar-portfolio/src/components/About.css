@@ -53,9 +53,9 @@
 
 #aboutMe .info {
     width: 100%;
-    margin: 6rem auto;
-    /* padding: 1rem; */
+    margin: 3rem auto;
     text-align: justify;
+    line-height: 1.7rem;
 
 }
 

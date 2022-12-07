@@ -67,7 +67,7 @@ const data = [
         descriptionOne: 'This command line application will allow the user to create a clean and professional README file through a series of prompts in their terminal. It will then generate the README file that they can use in their repository. ',
         descriptionTwo: 'This README file for this repository was created using this generator.',
         caption: 'README Generator',
-        projectUrl: 'https://github.com/AndreaRene/README_Generator',
+        projectUrl: 'https://drive.google.com/file/d/1aPTcs2zxkWzbs2LsGI4GfTGvzT3Chfom/view',
         imageSource: README,
         altText: 'image of calendar app',
         githubUrl: 'https://github.com/AndreaRene/README_Generator'

@@ -1,12 +1,12 @@
 .resumePage {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 #downloadResume {
-    margin: 2rem;
+    margin-top: 6rem;
     border-radius: 1rem;
     padding: 1rem;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
@@ -17,25 +17,60 @@
     font-weight: bolder;
 }
 
+.cardDeck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.cardDeck .card {
+    width: 15%;
+    /* border: 1px solid var(--mainBlue); */
+    border-radius: 1rem;
+    padding: 0;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.card .cardHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.5rem;
+    background-color: var(--mainBlue);
+    color: var(--lightBlue);
+    border-radius: 1rem 1rem 0 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+.card .cardBody {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    /* align-items: center; */
+    margin: 0;
+
+    border-radius: 0 0 1rem 1rem;
+}
+
 .icons i {
-    margin: 1rem;
+    margin: .5rem;
     font-size: 3rem;
     color: var(--mainBlue)
 }
 
 .icons img {
-    margin: 1rem;
+    margin: .5rem;
     height: 3rem;
     width: auto;
 
 }
 
-.resumePage p {
-    margin-bottom: 1rem;
-    color: var(--mainBlue);
-    font-size: 1.2rem;
-    font-weight: bold;
-}
+
 
 .icons {
     margin: 1rem;
