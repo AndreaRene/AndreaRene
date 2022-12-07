@@ -4,21 +4,21 @@ import totr from '../assets/totr.png';
 import quickweather from '../assets/quickweather.jpeg';
 import quizly from '../assets/quizly.png';
 import SmallCal from '../assets/SmallCal.jpg';
-import pom from '../assets/pom.png'
-import README from '../assets/readmeGen.png'
+import pom from '../assets/pom.png';
+import pomv2 from '../assets/pomv2.jpg';
+import README from '../assets/readmeGen.png';
 
-// const feature = [
-//     {
-//         descriptionOne: 'I got together with a group of friends and we decided we all wanted to see less hatred online and in social media. One thing that we discussed was the visibility that mental health is getting. We agreed that it is still not enough, so we wanted to make a community.',
-//         descriptionTwo: 'With this site, users will be able to come together and support one another through good and bad, ups and downs, thick and thin. Mental health is a serious concern and people need a safe space to be able to talk about it without fear.',
-//         caption: 'Peace Of Mind',
-//         projectUrl: 'https://peace-of-mind-app.herokuapp.com/',
-//         imageSource: pom,
-//         altText: 'a small image of the website',
-//         githubUrl: 'https://github.com/AndreaRene/Andrea_Rene_Portfolio'
-//     },
-// ]
+
 const data = [
+    {
+        descriptionOne: 'After creating Peace of Mind, we had an opportunity to continue working on it. Valeria (a previous contributor) and I continued improving upon the project with a few new friends. We have implemented a MERN stack utilizing graphQL and added a couple new bells to the site overall.',
+        descriptionTwo: 'We how to continue developing this project together so keep an eye out for future updates!',
+        caption: 'Peace of Mind V2',
+        projectUrl: 'https://peace-of-mind-app-v2.herokuapp.com/',
+        imageSource: pomv2,
+        altText: 'version two moblie screen shot',
+        githubUrl: 'https://github.com/AndreaRene/Peace-Of-Mind_V2'
+    },
     {
         descriptionOne: 'A group of friends and I discussed the visibility that mental health is getting. We agreed that it is still not enough.',
         descriptionTwo: 'With this site, users will be able to come together and support one another through good and bad, ups and downs, thick and thin. Mental health is a serious concern and people need a safe space to be able to talk about it without fear.',
@@ -63,15 +63,15 @@ const data = [
         altText: 'small image of quiz app',
         githubUrl: 'https://github.com/AndreaRene/Development_Quiz_App'
     },
-    {
-        descriptionOne: 'This command line application will allow the user to create a clean and professional README file through a series of prompts in their terminal. It will then generate the README file that they can use in their repository. ',
-        descriptionTwo: 'This README file for this repository was created using this generator.',
-        caption: 'README Generator',
-        projectUrl: 'https://drive.google.com/file/d/1aPTcs2zxkWzbs2LsGI4GfTGvzT3Chfom/view',
-        imageSource: README,
-        altText: 'image of calendar app',
-        githubUrl: 'https://github.com/AndreaRene/README_Generator'
-    },
+    // {
+    //     descriptionOne: 'This command line application will allow the user to create a clean and professional README file through a series of prompts in their terminal. It will then generate the README file that they can use in their repository. ',
+    //     descriptionTwo: 'This README file for this repository was created using this generator.',
+    //     caption: 'README Generator',
+    //     projectUrl: 'https://drive.google.com/file/d/1aPTcs2zxkWzbs2LsGI4GfTGvzT3Chfom/view',
+    //     imageSource: README,
+    //     altText: 'image of calendar app',
+    //     githubUrl: 'https://github.com/AndreaRene/README_Generator'
+    // },
 ]
 
 const Portfolio = () => {
