@@ -5,8 +5,8 @@ import quickweather from '../assets/quickweather.jpeg';
 import quizly from '../assets/quizly.png';
 import SmallCal from '../assets/SmallCal.jpg';
 import pom from '../assets/pom.png';
-import pomv2 from '../assets/pomv2.jpg';
-import README from '../assets/readmeGen.png';
+import pomv2 from '../assets/pom-v2-v3.png';
+// import README from '../assets/readmeGen.png';
 
 
 const data = [
