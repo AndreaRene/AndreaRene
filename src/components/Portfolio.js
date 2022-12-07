@@ -12,7 +12,7 @@ import pomv2 from '../assets/pom-v2-v3.png';
 const data = [
     {
         descriptionOne: 'After creating Peace of Mind, we had an opportunity to continue working on it. Valeria (a previous contributor) and I continued improving upon the project with a few new friends. We have implemented a MERN stack utilizing graphQL and added a couple new bells to the site overall.',
-        descriptionTwo: 'We how to continue developing this project together so keep an eye out for future updates!',
+        descriptionTwo: 'We hope to continue developing this project together so keep an eye out for future updates!',
         caption: 'Peace of Mind V2',
         projectUrl: 'https://peace-of-mind-app-v2.herokuapp.com/',
         imageSource: pomv2,
