@@ -46,7 +46,7 @@ const Resume = () => {
                 <section className='card'>
                     <p className='cardHeader'>Platforms</p>
                     <div className='icons cardBody'>
-
+                        <i class="devicon-gitlab-plain-wordmark colored"></i>
                         <i className="devicon-github-original colored"></i>
                         <i className="devicon-heroku-plain colored"></i>
                     </div>
