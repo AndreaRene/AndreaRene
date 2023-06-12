@@ -2,6 +2,7 @@ import './About.css';
 import avatarthumb from '../assets/avatarthumb.jpg';
 
 const About = () => {
+    window.scrollTo({ top: 0 });
     return (
         <main id='aboutMe' className='mainSection'>
             <h1 className='left'>
@@ -25,7 +26,7 @@ const About = () => {
 
             <aside>
                 <p className='info'>
-                    Hi there!  I'm Andrea, a full-stack developer eager to start my development journey with an awesome company.  As you can see from my resume page, I have a wide-range of skills to help your company do amazing things.  I have a passion for crisp, visually appealing design and performant, modular code on both the front and back-end.  Check out what I've done, see what I'm good at, and get in touch!  Employers, other developers, or people that just want to have a chat about developing... I'd love to hear from you!
+                    Hi there!  I'm Andrea, a full-stack developer eager to start my development journey with an awesome company.  As you can see from my resume page, I have a wide-range of skills to help your company do amazing things.  I have a passion for crisp, visually appealing design and performant, modular code on both the front and back-end.  Check out what I've done, see what I'm good at, and get in touch! I'd love to hear from you!
                 </p>
                 <p className='info'>
                     I started out originally with a passion for cooking. I went through a two year Culinary Arts program before I realized that I really don't care for cooking for people I don't know. Don't worry I still do plenty of cool stuff in the kitcen!  Eventually I took a break from the workforce to raise my kids.  Now that they're mostly self-sufficient, I want to get back into something productive and creative.  I've gone through some free and some paid online tutorials on HTML, CSS, and Javascript but I wanted something more tangible.

@@ -1,7 +1,7 @@
 import './Project.css';
 
 const Project = ({ descriptionOne, descriptionTwo, descriptionThree, caption, projectUrl, imageSource, altText, githubUrl, sections }) => {
-
+window.scrollTo({ top: 0 });
     return (
         <section className={'boxGroup boxSection' + (sections + 1)}>
             <div className={'box'}>
