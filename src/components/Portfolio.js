@@ -26,7 +26,7 @@ const data = [
         projectUrl: 'https://peace-of-mind-app.herokuapp.com/',
         imageSource: pom,
         altText: 'a small image of the website',
-        githubUrl: 'https://github.com/AndreaRene/Andrea_Rene_Portfolio'
+        githubUrl: 'https://andrearene.github.io/AndreaRene/'
     },
     {
         descriptionOne: 'The app allows the user to either find a recipe for a random cocktail or a specific one by searching by name or ingredient.',
