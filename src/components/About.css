@@ -163,7 +163,7 @@
         width: 50%;
     }
 
-    #aboutMe p {
+    .hiddenAbout {
         display: none;
     }
 

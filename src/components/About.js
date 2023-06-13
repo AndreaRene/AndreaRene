@@ -11,11 +11,11 @@ const About = () => {
                 <p>I'm <span className='pink'>Andrea</span>.</p>
             </h1>
             <img src={avatarthumb} alt="andrea's face in black and white with colorful glasses" />
-            <div className='right'>
+            <div className='right hiddenAbout'>
                 <p>I just really like</p>
                 <p>JavaScript... ok?</p>
             </div>
-            <div className='left'>
+            <div className='left hiddenAbout'>
                 <p>I produce concise and</p>
                 <p><span className='pink'>performant</span> code with an</p>
                 <p>emphasis on future-proofing.</p>
