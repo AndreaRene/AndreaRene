@@ -12,16 +12,44 @@
     color: var(--lightBlue);
 }
 
+.footerClick {
+    text-decoration: none;
+    color: var(--green);
+}
+
 @media (min-width: 1450px) {}
 
-@media (max-width: 1200px) {}
+@media (max-width: 1200px) {
+    #pageFooter {
+        padding: 1rem;
+        font-size: 2rem;
+    }
+}
 
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
+    #pageFooter {
+        font-size: 1.5rem;
+    }
+}
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    #pageFooter {
+        padding: 1em;
+        font-size: 1rem;
+    }
+}
 
 @media (min-width: 560px) and (max-width: 768px) {}
 
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+    #pageFooter {
+        padding: 1.5rem;
+    }
+
+    #pageFooter p {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+}
 
 @media (max-width: 380px) {}

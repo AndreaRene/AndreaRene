@@ -4,7 +4,7 @@ const Footer = () => {
 
     return (
         <footer id="pageFooter">
-            <p>Comtrya!</p>
+            <a href='https://www.gateworld.net/wiki/Comtrya' className='footerClick' target='_'><p>Comtrya!</p></a>
             <p>You made it to the bottom!</p>
         </footer>
     )
