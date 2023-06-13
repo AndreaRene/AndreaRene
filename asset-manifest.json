@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/Andrea_Rene_Portfolio_v2/static/css/main.7ab7d908.css",
-    "main.js": "/Andrea_Rene_Portfolio_v2/static/js/main.123978f6.js",
-    "static/js/787.871f89b7.chunk.js": "/Andrea_Rene_Portfolio_v2/static/js/787.871f89b7.chunk.js",
-    "static/media/so.png": "/Andrea_Rene_Portfolio_v2/static/media/so.8abe2805df81ac947148.png",
-    "static/media/quickweather.jpeg": "/Andrea_Rene_Portfolio_v2/static/media/quickweather.7278578eb6a425db963d.jpeg",
-    "static/media/insomnia.png": "/Andrea_Rene_Portfolio_v2/static/media/insomnia.14d8d95d2fb8da81d5eb.png",
-    "static/media/avatarthumb.jpg": "/Andrea_Rene_Portfolio_v2/static/media/avatarthumb.a78d36682fde64255a89.jpg",
-    "static/media/pom-v2-v3.png": "/Andrea_Rene_Portfolio_v2/static/media/pom-v2-v3.ced3faf481897e22b3da.png",
-    "static/media/miro.png": "/Andrea_Rene_Portfolio_v2/static/media/miro.a3e782ed376f44d8bfc2.png",
-    "static/media/AndreaReneResume.pdf": "/Andrea_Rene_Portfolio_v2/static/media/AndreaReneResume.762fbbbd55d2f58aa07b.pdf",
-    "static/media/totr.png": "/Andrea_Rene_Portfolio_v2/static/media/totr.9a54d8ac7d623723dcb9.png",
-    "static/media/pom.png": "/Andrea_Rene_Portfolio_v2/static/media/pom.ab414d5d37a814bdb42d.png",
-    "static/media/quizly.png": "/Andrea_Rene_Portfolio_v2/static/media/quizly.64c11187092ff52bcc2c.png",
-    "static/media/SmallCal.jpg": "/Andrea_Rene_Portfolio_v2/static/media/SmallCal.46a489dae6fa72a11613.jpg",
-    "static/media/email.png": "/Andrea_Rene_Portfolio_v2/static/media/email.c05eecb5826d6cfd248c.png",
-    "index.html": "/Andrea_Rene_Portfolio_v2/index.html",
-    "main.7ab7d908.css.map": "/Andrea_Rene_Portfolio_v2/static/css/main.7ab7d908.css.map",
-    "main.123978f6.js.map": "/Andrea_Rene_Portfolio_v2/static/js/main.123978f6.js.map",
-    "787.871f89b7.chunk.js.map": "/Andrea_Rene_Portfolio_v2/static/js/787.871f89b7.chunk.js.map"
+    "main.css": "/AndreaRene/static/css/main.e681d6c8.css",
+    "main.js": "/AndreaRene/static/js/main.52f0182d.js",
+    "static/js/787.871f89b7.chunk.js": "/AndreaRene/static/js/787.871f89b7.chunk.js",
+    "static/media/so.png": "/AndreaRene/static/media/so.8abe2805df81ac947148.png",
+    "static/media/quickweather.jpeg": "/AndreaRene/static/media/quickweather.7278578eb6a425db963d.jpeg",
+    "static/media/insomnia.png": "/AndreaRene/static/media/insomnia.14d8d95d2fb8da81d5eb.png",
+    "static/media/avatarthumb.jpg": "/AndreaRene/static/media/avatarthumb.a78d36682fde64255a89.jpg",
+    "static/media/pom-v2-v3.png": "/AndreaRene/static/media/pom-v2-v3.ced3faf481897e22b3da.png",
+    "static/media/miro.png": "/AndreaRene/static/media/miro.a3e782ed376f44d8bfc2.png",
+    "static/media/AndreaReneResume.pdf": "/AndreaRene/static/media/AndreaReneResume.762fbbbd55d2f58aa07b.pdf",
+    "static/media/totr.png": "/AndreaRene/static/media/totr.9a54d8ac7d623723dcb9.png",
+    "static/media/pom.png": "/AndreaRene/static/media/pom.ab414d5d37a814bdb42d.png",
+    "static/media/quizly.png": "/AndreaRene/static/media/quizly.64c11187092ff52bcc2c.png",
+    "static/media/SmallCal.jpg": "/AndreaRene/static/media/SmallCal.46a489dae6fa72a11613.jpg",
+    "static/media/email.png": "/AndreaRene/static/media/email.c05eecb5826d6cfd248c.png",
+    "index.html": "/AndreaRene/index.html",
+    "main.e681d6c8.css.map": "/AndreaRene/static/css/main.e681d6c8.css.map",
+    "main.52f0182d.js.map": "/AndreaRene/static/js/main.52f0182d.js.map",
+    "787.871f89b7.chunk.js.map": "/AndreaRene/static/js/787.871f89b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ab7d908.css",
-    "static/js/main.123978f6.js"
+    "static/css/main.e681d6c8.css",
+    "static/js/main.52f0182d.js"
   ]
 }
