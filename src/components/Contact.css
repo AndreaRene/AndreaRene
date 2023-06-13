@@ -1,20 +1,41 @@
-#contactForm {
+#contact {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+}
+
+#contact h2 {
+    margin: 1rem auto;
     width: 80%;
-    margin: auto;
+    /* padding: 1em; */
+    font-size: 3rem;
+    text-align: center;
+    background-color: var(--lightBlue);
+    color: var(--mainBlue);
 }
 
-.formText,
-.formInput {
-    display: block;
-    width: 20%;
-    text-align: left;
+
+#contact ul {
+    text-align: center;
 }
 
-textarea {
-    height: 6rem;
+.contactIcon {
+    vertical-align: bottom;
+    margin-right: .5em;
+    width: auto;
+    height: 1em;
+}
+
+.contactLink {
+    margin: .3rem;
+    font-size: 3rem;
+}
+
+.contactClick {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--pink);
 }
 
 @media (min-width: 1450px) {}

@@ -12,26 +12,6 @@
     color: var(--lightBlue);
 }
 
-#contactIcons {
-    margin: 1rem;
-}
-
-.contactIcon {
-    vertical-align: bottom;
-    margin-right: 2rem;
-    width: auto;
-    height: 3rem;
-    font-size: 3rem;
-    color: whitesmoke;
-    text-decoration: none;
-}
-
-
-.footerClick {
-    text-decoration: none;
-    color: var(--green);
-}
-
 @media (min-width: 1450px) {}
 
 @media (max-width: 1200px) {}

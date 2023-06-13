@@ -18,8 +18,8 @@ html {
 }
 
 body {
-  min-height: 100vh;
-  padding-top: 6rem;
+  /* min-height: 100vh; */
+  /* padding-top: 6rem; */
   margin: 0;
   line-height: 1;
   font-family: 'Comfortaa', cursive;
@@ -58,5 +58,6 @@ ul {
 }
 
 .mainSection {
+  margin-top: 5rem;
   padding: 3em .5em;
 }

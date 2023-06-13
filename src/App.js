@@ -6,7 +6,7 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
-// why is eslint saying "expecting a default case"
+
 function App() {
   const [content, setContent] = useState('about');
   const Rendered = () => {
