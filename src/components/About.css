@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* margin-top: 5rem; */
+    margin-top: 5rem;
     padding: 4rem 15rem;
     color: var(--mainBlue);
 }
@@ -59,16 +59,120 @@
 
 }
 
-@media (min-width: 1450px) {}
+@media (min-width: 1450px) {
 
-@media (max-width: 1200px) {}
+    #aboutMe {
+        padding: 5rem 15rem;
 
-@media (max-width: 1024px) {}
+    }
+}
 
-@media (max-width: 768px) {}
+@media (max-width: 1200px) {
 
-@media (min-width: 560px) and (max-width: 768px) {}
+    #aboutMe {
+        padding: 2rem;
+    }
 
-@media (max-width: 480px) {}
+}
 
-@media (max-width: 380px) {}
+@media (max-width: 1024px) {
+
+    #aboutMe {
+        padding: 1.5rem;
+    }
+
+    #aboutMe h1 {
+        font-size: 2.5rem;
+    }
+
+    #aboutMe h2 {
+        font-size: 2rem;
+    }
+
+    #aboutMe p {
+        font-size: 1.3rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    #aboutMe {
+        padding: 6rem 3rem .5rem;
+    }
+
+    #aboutMe h1 {
+        margin-bottom: 0;
+        font-size: 1.4rem;
+    }
+
+    #aboutMe h2 {
+        font-size: 1rem;
+
+    }
+
+    #aboutMe p {
+        font-size: .7rem;
+    }
+
+    #aboutMe img {
+        width: 30%;
+    }
+
+}
+
+@media (min-width: 560px) and (max-width: 768px) {
+
+    #aboutMe {
+        padding: 6rem 2rem .5rem;
+    }
+
+    #aboutMe h1 {
+        font-size: 2rem;
+    }
+
+    #aboutMe h2 {
+        font-size: 1.5rem;
+
+    }
+
+    #aboutMe p {
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    #aboutMe {
+        flex-direction: column;
+    }
+
+    #aboutMe h1 {
+        font-size: 1.5rem;
+    }
+
+    #aboutMe h2 {
+        align-self: flex-end;
+        font-size: .9rem;
+    }
+
+    #aboutMe img {
+        align-self: center;
+        border: .2em solid var(--mainBlue);
+        width: 50%;
+    }
+
+    #aboutMe p {
+        display: none;
+    }
+
+}
+
+@media (max-width: 380px) {
+
+    #aboutMe {
+        padding: 6rem 1rem .5rem;
+    }
+
+}
