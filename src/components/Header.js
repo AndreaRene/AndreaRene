@@ -1,6 +1,6 @@
 import './Header.css';
 import { useState } from 'react';
-
+//TODO: create slide out menu
 const Header = (props) => {
     const [activePage, setActivePage] = useState('about')
     const clickHandler = (event) => {

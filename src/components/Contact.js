@@ -3,7 +3,7 @@ import phone from '../assets/cell.png';
 import github from '../assets/github.png';
 import linkedIn from '../assets/linkedin.png'
 import './Contact.css';
-
+//TODO: change color of contact link icons
 const Contact = () => {
     return (
         <section id="contact">

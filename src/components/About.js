@@ -1,6 +1,7 @@
 import './About.css';
 import avatarthumb from '../assets/avatarthumb.jpg';
-
+// TODO: Fix media queries. Everything disapears 
+//TODO: rewrite paragraphs
 const About = () => {
     window.scrollTo({ top: 0 });
     return (
