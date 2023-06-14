@@ -42,12 +42,54 @@
 
 @media (max-width: 1200px) {}
 
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
+    #contact {
+        padding: .5rem;
+    }
 
-@media (max-width: 768px) {}
+    #contact h2 {
+        font-size: 2.5rem;
+    }
+
+    .contactLink {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    #contact h2 {
+        font-size: 1.3rem;
+    }
+
+    .contactLink {
+        font-size: 1rem;
+    }
+
+    .contactIcon {
+        height: 1.5rem;
+    }
+}
 
 @media (min-width: 560px) and (max-width: 768px) {}
 
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+    #contact h2 {
+        font-size: 1rem;
+    }
+
+    .contactLink {
+        display: inline-block;
+        margin: .5em -.25em;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .contactIcon {
+        margin: .7rem;
+        height: 2rem;
+    }
+}
 
 @media (max-width: 380px) {}
