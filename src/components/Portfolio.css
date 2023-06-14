@@ -22,6 +22,9 @@
 }
 
 @media (max-width: 768px) {
+    .workGrid{
+        flex-direction: column;
+    }
     .workGrid figure,
     .workGrid p {
         width: 40%;
