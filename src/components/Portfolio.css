@@ -16,44 +16,30 @@
 }
 
 @media (max-width: 1024px) {
-    .workGrid p {
-        font-size: .8rem;
+    .workGrid{
+        flex-direction: column;
     }
 }
 
 @media (max-width: 768px) {
-    .workGrid{
-        flex-direction: column;
-    }
-    .workGrid figure,
-    .workGrid p {
-        width: 40%;
-        font-size: .7rem;
-    }
-}
 
-@media (min-width: 560px) and (max-width: 768px) {
-    .workGrid p {
-        font-size: 1rem;
     }
-}
+
+
+@media (min-width: 560px) and (max-width: 768px) {}
+
 
 @media (max-width: 480px) {
-    .workGrid figure,
+    /* .workGrid figure,
     .workGrid p {
         margin: 1rem auto;
         width: 80%;
-        font-size: 1rem;
         text-align: center;
-    }
+    } */
 
-    .workGrid {
-        flex-direction: column;
-    }
-
-    .workGrid p {
+    /* .workGrid p {
         display: none;
-    }
+    } */
 }
 
 @media (max-width: 380px) {}

@@ -13,6 +13,10 @@
 }
 
 .box {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: stretch;
     width: 50%;
     padding: .8rem;
     color: var(--mainBlue)
@@ -80,29 +84,72 @@
 @media (max-width: 1450px) {
 
     .box p {
-        font-size: .9rem;
         line-height: 1rem;
     }
 }
 
 @media (max-width: 1200px) {
-
     .title {
+        width: 80%;
         font-size: .8rem;
     }
+
 }
 
 @media (max-width: 1024px) {
-    .title {
+    .boxGroup {
         width: 90%;
+        margin-top: 3rem;
+}
+
+    .boxSection2,
+    .boxSection6 {
+        flex-direction: row-reverse;
+}
+
+.boxSection3{
+    flex-direction: row;
+}
+    .title {
+        width: 65%;
+        margin-top: 0rem;
         margin-bottom: 1rem;
     }
+
 }
 
 @media (max-width: 768px) {}
 
-@media (min-width: 560px) and (max-width: 768px) {}
+@media (min-width: 560px) and (max-width: 768px) {
+    .title{
+        width: 75%;
+    }
+}
 
-@media (max-width: 480px) {}
+@media (max-width: 580px){
+
+    .boxGroup{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .box{
+        width: 80%;
+        padding: 0;
+    }
+    .box p {
+        display: none;
+    }
+
+    .title{
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .title{
+        width: 80%;
+    }
+}
 
 @media (max-width: 380px) {}
