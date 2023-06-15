@@ -16,7 +16,9 @@ const Header = (props) => {
                     <p>Andrea René</p>
                     <p>Presto</p>
                 </div>
-                <ul>
+                <section>
+                <button>button</button>
+                <ul id='menu'>
                     <li className="navLink"><a href="#about" className={`navClick ${activePage === 'about' ? 'active' : ''}`} id="about" onClick={clickHandler}>Who I Am</a></li>
 
                     <li className="navLink"><a href="#portfolio" className={`navClick ${activePage === 'portfolio' ? 'active' : ''}`} id="portfolio" onClick={clickHandler}>What I've Done</a></li>
@@ -24,7 +26,8 @@ const Header = (props) => {
                     <li className="navLink"><a href="#contact" className={`navClick ${activePage === 'contact' ? 'active' : ''}`} id="contact" onClick={clickHandler}>Let's Connect</a></li>
 
                     <li className="navLink"><a href="#resume" className={`navClick ${activePage === 'resume' ? 'active' : ''}`} id="resume" onClick={clickHandler}>Resumé</a></li>
-                </ul>
+                    </ul>
+                    </section>
             </nav>
         </header>
     )

@@ -23,6 +23,10 @@
     text-align: center;
 }
 
+button{
+    display: none;
+}
+
 .navLink {
     display: inline-block;
     padding: .8rem .5rem;
@@ -67,9 +71,12 @@
 }
 
 @media (max-width: 768px) {
+    button{
+        display: inline-block;
+    }
     #topNav {
-        flex-direction: column;
-        align-items: center;
+        /* flex-direction: column; */
+        /* align-items: center; */
     }
 
     #topNav ul {

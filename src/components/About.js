@@ -1,14 +1,13 @@
 import './About.css';
 import avatarthumb from '../assets/avatarthumb.jpg';
-// TODO: Fix media queries. Everything disapears 
 //TODO: rewrite paragraphs
 const About = () => {
     window.scrollTo({ top: 0 });
     return (
         <main id='aboutMe' className='mainSection'>
             <h1 className='left'>
-                <p>Hi, there.</p>
-                <p>I'm <span className='pink'>Andrea</span>.</p>
+                Hi, there.<br />
+                I'm <span className='pink'>Andrea</span>.
             </h1>
             <img src={avatarthumb} alt="andrea's face in black and white with colorful glasses" />
             <div className='right hiddenAbout'>
@@ -21,8 +20,8 @@ const About = () => {
                 <p>emphasis on future-proofing.</p>
             </div>
             <h2 className='right'>
-                <p>Let's go build</p>
-                <p>something <span className='pink'>together</span>.</p>
+                Let's go build<br />
+                something <span className='pink'>together</span>.
             </h2>
 
             <aside>
