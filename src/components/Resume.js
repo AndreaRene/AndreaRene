@@ -1,6 +1,6 @@
 import './Resume.css';
 import miro from '../assets/miro.png';
-import insomnia from '../assets/insomnia.png'
+import insomnia from '../assets/insomnia.png';
 import resume from '../assets/AndreaReneResume.pdf';
 
 const Resume = () => {
@@ -23,6 +23,7 @@ const Resume = () => {
                     <div className='icons cardBody'>
 
                         <i className="devicon-bootstrap-plain colored"></i>
+                        <i class="devicon-tailwindcss-plain colored"></i>
                         <i className="devicon-jquery-plain colored"></i>
                         <i className="devicon-express-original colored"></i>
                         <i className="devicon-react-original"></i>
