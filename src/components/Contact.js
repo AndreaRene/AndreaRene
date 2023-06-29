@@ -7,25 +7,25 @@ import './Contact.css';
 const Contact = () => {
     return (
         <section id="contact">
-            <h2>Connect with me! Let's do something <span class="pink">amazing</span>.</h2>
-            <ul>
-                <li class="contactLink"><a href="mailto:andrea@interhact.net" target="_" class="contactClick"><img
-                            src={mailIcon} class="contactIcon"
+            <h2>Connect with me! Let's do something <span className="pink">amazing</span>.</h2>
+            <ul className='contactList'>
+                <li className="contactLink"><a href="mailto:andrea@interhact.net" target="_" className="contactClick"><img
+                            src={mailIcon} className="contactIcon"
                             alt="email message icon"/>
-                        <span class="hidden">andrea@interhact.net</span></a></li>
-                <li class="contactLink"><a href="tel:5129544257" class="contactClick"><img
-                    src={phone} class="contactIcon"
+                        <span className="hidden">andrea@interhact.net</span></a></li>
+                <li className="contactLink"><a href="tel:5129544257" className="contactClick"><img
+                    src={phone} className="contactIcon"
                             alt="cell phone icon"/> 
-                            <span class="hidden">512.954.4257</span></a></li>
-                <li class="contactLink"><a href="https://github.com/AndreaRene" target="_" class="contactClick"><img
-                            src={github} class="contactIcon" alt="github icon"/><span
-                            class="hidden">
+                            <span className="hidden">512.954.4257</span></a></li>
+                <li className="contactLink"><a href="https://github.com/AndreaRene" target="_" className="contactClick"><img
+                            src={github} className="contactIcon" alt="github icon"/><span
+                            className="hidden">
                             github.com/AndreaRene</span></a></li>
-                <li class="contactLink">
+                <li className="contactLink">
                     <a href="https://www.linkedin.com/in/andreapresto/" target="_"
-                        class="contactClick"><img src={linkedIn} class="contactIcon"
+                        className="contactClick"><img src={linkedIn} className="contactIcon"
                         alt="linkedin icon" />
-                    <span class="hidden"> Find me on LinkedIn</span></a></li>
+                    <span className="hidden"> Find me on LinkedIn</span></a></li>
             </ul>
         </section>
     )

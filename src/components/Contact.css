@@ -16,7 +16,8 @@
 }
 
 
-#contact ul {
+.contactList {
+    margin-top: 5rem;
     text-align: center;
 }
 
@@ -58,7 +59,7 @@
 
 @media (max-width: 768px) {
     #contact h2 {
-        font-size: 1.3rem;
+        font-size: 2rem;
     }
 
     .contactLink {
@@ -74,7 +75,7 @@
 
 @media (max-width: 480px) {
     #contact h2 {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .contactLink {

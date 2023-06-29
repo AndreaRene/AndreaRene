@@ -23,7 +23,7 @@ const Resume = () => {
                     <div className='icons cardBody'>
 
                         <i className="devicon-bootstrap-plain colored"></i>
-                        <i class="devicon-tailwindcss-plain colored"></i>
+                        <i className="devicon-tailwindcss-plain colored"></i>
                         <i className="devicon-jquery-plain colored"></i>
                         <i className="devicon-express-original colored"></i>
                         <i className="devicon-react-original"></i>
@@ -57,7 +57,7 @@ const Resume = () => {
                     <p className='cardHeader'>Tools</p>
                     <div className='icons cardBody'>
 
-                        <i class="devicon-vscode-plain"></i>
+                        <i className="devicon-vscode-plain"></i>
                         <img src={miro} alt='miro logo' />
                         <img src={insomnia} alt='insomnia logo' />
                     </div>
