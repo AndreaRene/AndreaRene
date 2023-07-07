@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/AndreaRene/static/css/main.e9c3a573.css",
-    "main.js": "/AndreaRene/static/js/main.bc245f9d.js",
+    "main.js": "/AndreaRene/static/js/main.69e73f02.js",
+    "static/media/AndreaReneResume.pdf": "/AndreaRene/static/media/AndreaReneResume.6948200c494fc7f14526.pdf",
     "static/media/quickweather.jpeg": "/AndreaRene/static/media/quickweather.7278578eb6a425db963d.jpeg",
     "static/media/insomnia.png": "/AndreaRene/static/media/insomnia.14d8d95d2fb8da81d5eb.png",
     "static/media/avatarthumb.jpg": "/AndreaRene/static/media/avatarthumb.a78d36682fde64255a89.jpg",
     "static/media/pom-v2-v3.png": "/AndreaRene/static/media/pom-v2-v3.ced3faf481897e22b3da.png",
     "static/media/miro.png": "/AndreaRene/static/media/miro.a3e782ed376f44d8bfc2.png",
-    "static/media/AndreaReneResume.pdf": "/AndreaRene/static/media/AndreaReneResume.762fbbbd55d2f58aa07b.pdf",
     "static/media/totr.png": "/AndreaRene/static/media/totr.9a54d8ac7d623723dcb9.png",
     "static/media/pom.png": "/AndreaRene/static/media/pom.ab414d5d37a814bdb42d.png",
     "static/media/quizly.png": "/AndreaRene/static/media/quizly.64c11187092ff52bcc2c.png",
@@ -15,10 +15,10 @@
     "static/media/email.png": "/AndreaRene/static/media/email.c05eecb5826d6cfd248c.png",
     "index.html": "/AndreaRene/index.html",
     "main.e9c3a573.css.map": "/AndreaRene/static/css/main.e9c3a573.css.map",
-    "main.bc245f9d.js.map": "/AndreaRene/static/js/main.bc245f9d.js.map"
+    "main.69e73f02.js.map": "/AndreaRene/static/js/main.69e73f02.js.map"
   },
   "entrypoints": [
     "static/css/main.e9c3a573.css",
-    "static/js/main.bc245f9d.js"
+    "static/js/main.69e73f02.js"
   ]
 }
