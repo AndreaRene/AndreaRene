@@ -6,8 +6,9 @@ import resume from '../assets/AndreaReneResume.pdf';
 const Resume = () => {
     return (
         <main className='mainSection resumePage'>
+            {/* {TODO: Create card component} */}
             <div className='cardDeck'>
-
+                {/* {TODO: create object array for card information} */}
                 <section className='card'>
                     <p className='cardHeader'>Languages</p>
                     <div className='icons cardBody'>

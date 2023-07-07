@@ -26,7 +26,7 @@
 
 .cardDeck .card {
     width: 15%;
-    min-height: 20rem;
+    height: 20rem;
     /* border: 1px solid var(--mainBlue); */
     border-radius: 1rem;
     padding: 0;
@@ -118,22 +118,46 @@
     .cardDeck{
         width: 98%;
     }
-
+    
     .cardDeck .card {
         width: 35%;
     }
+    
+        .card .cardHeader{
+            font-size: 1.4rem;
+        }
     
 }
 
 @media (max-width: 768px) {
 
-    /* .cardDeck .card {
-        width: 80%;
-    } */
+    .cardDeck {
+        /* width: 40%; */
+        padding: .5rem;
+    }
+
+    .card .cardHeader {
+        font-size: 1rem;
+    }
+    
 }
 
 @media (min-width: 560px) and (max-width: 768px) {}
 
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+    
+    .cardDeck{
+        width: 90%;
+    }
+    
+    .cardDeck .card{
+        width: 80%;
+        height: 16rem;
+    }
+    .cardHeader{
+        font-size: .8rem;
+    }
+    
+}
 
 @media (max-width: 380px) {}
