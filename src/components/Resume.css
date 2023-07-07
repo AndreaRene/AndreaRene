@@ -87,26 +87,50 @@
 @media (max-width: 1200px) {}
 
 @media (max-width: 1024px) {
-
-    .cardDeck {
-        width: 90%;
-        padding: 4rem;
-    }
-    .cardDeck .card {
-        width: 24%;
-        margin: 2rem;
-    }
-    #downloadResume {
-        margin: 0;
-    }
-
+    
     .resumePage {
         flex-direction: column-reverse;
         margin-top: 8rem;
     }
+
+    #downloadResume {
+        margin: 0;
+    }
+    
+    .cardDeck {
+        width: 90%;
+        padding: 4rem;
+    }
+    
+    .cardDeck .card {
+        width: 24%;
+        margin: 2rem;
+    }
+
+    .cardDeck .cardBody {
+        /* height: 50%; */
+    }
+
 }
 
-@media (max-width: 768px) {}
+@media (max-width: 920px) {
+
+    .cardDeck{
+        width: 98%;
+    }
+
+    .cardDeck .card {
+        width: 35%;
+    }
+    
+}
+
+@media (max-width: 768px) {
+
+    /* .cardDeck .card {
+        width: 80%;
+    } */
+}
 
 @media (min-width: 560px) and (max-width: 768px) {}
 
