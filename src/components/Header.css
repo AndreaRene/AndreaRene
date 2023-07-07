@@ -23,10 +23,6 @@
     text-align: center;
 }
 
-button{
-    display: none;
-}
-
 .navLink {
     display: inline-block;
     padding: .8rem .5rem;
@@ -45,6 +41,10 @@ button{
     text-decoration-thickness: .2rem;
     text-decoration-color: var(--pink);
     color: var(--green);
+}
+
+.mobileMenu{
+    display: none;
 }
 
 .active {
@@ -71,27 +71,38 @@ button{
 }
 
 @media (max-width: 768px) {
-    button{
-        display: inline-block;
-    }
-    #topNav {
-        /* flex-direction: column; */
-        /* align-items: center; */
-    }
 
-    #topNav ul {
-        margin: 1em auto .5em;
-        text-align: center;
-    }
+   .navOptions {
+    display: flex;
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 0;
+    transition: all 0.5s ease;
+    flex-direction: column;
+    list-style-type: none;
+    grid-gap: 0px;
+  }
 
-    .navLink {
-        display: block;
-        padding: .2em .5em;
-    }
+  .navOptions.isActive {
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+    align-content: center;
+    padding-left: 0px;
+  }
 
-    .navClick {
-        font-size: 1rem;
-    }
+  .menuIcon {
+    width: 45px;
+    height: 45px;
+  }
+
+  .mobileMenu {
+    display: block;
+  }
 }
 
 @media (min-width: 560px) and (max-width: 768px) {}

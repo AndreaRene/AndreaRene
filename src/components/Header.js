@@ -1,5 +1,8 @@
 import './Header.css';
 import { useState } from 'react';
+import { ReactComponent as CloseMenu} from "../assets/closeBtn.svg"
+import { ReactComponent as OpenMenu} from "../assets/menuBtn.svg"
+
 //TODO: create slide out menu
 const Header = (props) => {
     const [activePage, setActivePage] = useState('about')
@@ -9,25 +12,32 @@ const Header = (props) => {
         props.setContent(id)
         setActivePage(id);
     }
+
+    const [click, setClick] = useState(false);
+    const handleClick = () => setClick(!click);
+    const closeMobileMenu = () => setClick(false);
+    
     return (
-        <header>
+        <header id="pageHeader">
             <nav id="topNav">
                 <div id="nameLogo">
                     <p>Andrea René</p>
                     <p>Presto</p>
                 </div>
                 <section>
-                <button>button</button>
-                <ul id='menu'>
-                    <li className="navLink"><a href="#about" className={`navClick ${activePage === 'about' ? 'active' : ''}`} id="about" onClick={clickHandler}>Who I Am</a></li>
+                    <ul id='menu' className={click ? "navOptions isActive" : "navOptions"}>
+                        <li className="navLink" onClick={closeMobileMenu}><a href="#about" className={`navClick ${activePage === 'about' ? 'active' : ''}`} id="about" onClick={clickHandler}>Who I Am</a></li>
 
-                    <li className="navLink"><a href="#portfolio" className={`navClick ${activePage === 'portfolio' ? 'active' : ''}`} id="portfolio" onClick={clickHandler}>What I've Done</a></li>
+                        <li className="navLink" onClick={closeMobileMenu}><a href="#portfolio" className={`navClick ${activePage === 'portfolio' ? 'active' : ''}`} id="portfolio" onClick={clickHandler}>What I've Done</a></li>
 
-                    <li className="navLink"><a href="#contact" className={`navClick ${activePage === 'contact' ? 'active' : ''}`} id="contact" onClick={clickHandler}>Let's Connect</a></li>
+                        <li className="navLink" onClick={closeMobileMenu}><a href="#contact" className={`navClick ${activePage === 'contact' ? 'active' : ''}`} id="contact" onClick={clickHandler}>Let's Connect</a></li>
 
-                    <li className="navLink"><a href="#resume" className={`navClick ${activePage === 'resume' ? 'active' : ''}`} id="resume" onClick={clickHandler}>Resumé</a></li>
+                        <li className="navLink"onClick={closeMobileMenu}><a href="#resume" className={`navClick ${activePage === 'resume' ? 'active' : ''}`} id="resume" onClick={clickHandler}>Resumé</a></li>
                     </ul>
-                    </section>
+                    <div className="mobileMenu" onClick={handleClick}>
+                        {click ? (<CloseMenu className="menuIcon" />) : (<OpenMenu className="menuIcon" />)}
+                    </div>
+                </section>
             </nav>
         </header>
     )
