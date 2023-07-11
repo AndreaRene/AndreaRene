@@ -12,7 +12,6 @@ import pomv2 from '../assets/pom-v2-v3.png';
 const data = [
     {
         descriptionOne: 'After creating Peace of Mind, we had an opportunity to continue working on it. Valeria (a previous contributor) and I continued improving upon the project with a few new friends. We have implemented a MERN stack utilizing graphQL and added a couple new bells to the site overall.',
-        descriptionTwo: 'We hope to continue developing this project together so keep an eye out for future updates!',
         caption: 'Peace of Mind V2',
         projectUrl: 'https://peace-of-mind-app-v2.herokuapp.com/',
         imageSource: pomv2,
@@ -21,12 +20,13 @@ const data = [
     },
     {
         descriptionOne: 'A group of friends and I discussed the visibility that mental health is getting. We agreed that it is still not enough.',
-        descriptionTwo: 'With this site, users will be able to come together and support one another through good and bad, ups and downs, thick and thin. Mental health is a serious concern and people need a safe space to be able to talk about it without fear.',
+        descriptionTwo: 'With this site, users will be able to come together and support one another. Mental health is a serious concern and people need a safe space to be able to talk about it without fear.',
         caption: 'Peace Of Mind',
-        projectUrl: 'https://peace-of-mind-app.herokuapp.com/',
+        descriptionThree: 'This project is currently spun down. I have left the link for the Github repository, but we recreated the project which you can view in the Peace of Mind V2 section.',
+        projectUrl: 'https://github.com/AndreaRene/Peace_of_Mind',
         imageSource: pom,
         altText: 'a small image of the website',
-        githubUrl: 'https://andrearene.github.io/AndreaRene/'
+        githubUrl: 'https://github.com/AndreaRene/Peace_of_Mind'
     },
     {
         descriptionOne: 'The app allows the user to either find a recipe for a random cocktail or a specific one by searching by name or ingredient.',
