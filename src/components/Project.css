@@ -99,7 +99,7 @@
 @media (max-width: 1024px) {
     .boxGroup {
         width: 90%;
-        margin-top: 3rem;
+        /* margin-top: 3rem; */
 }
 
     .boxSection2,
@@ -136,6 +136,7 @@
     .box{
         width: 80%;
         padding: 0;
+        justify-content: center;
     }
     .box p {
         display: none;
@@ -143,6 +144,9 @@
 
     .title{
         width: 45%;
+        margin-top: 2rem;
+        margin-bottom: -1rem;
+        z-index: 1;
     }
 }
 

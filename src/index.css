@@ -58,6 +58,13 @@ ul {
 }
 
 .mainSection {
-  margin-top: 5rem;
-  padding: 3em .5em;
+  /* margin-top: 5rem; */
+  /* padding: 3em .5em; */
+}
+
+@media (max-width: 1024px) {
+  .mainSection {
+    /* margin-top: 0;
+    padding-top: 0; */
+  }
 }

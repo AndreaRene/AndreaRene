@@ -31,7 +31,7 @@ const Header = (props) => {
 
                     <li className="navLink" onClick={closeMobileMenu}><a href="#contact" className={`navClick ${activePage === 'contact' ? 'active' : ''}`} id="contact" onClick={clickHandler}>Let's Connect</a></li>
 
-                        <li className="navLink"onClick={closeMobileMenu}><a href="#resume" className={`navClick ${activePage === 'resume' ? 'active' : ''}`} id="resume" onClick={clickHandler}>Resumé</a></li>
+                     <li className="navLink"onClick={closeMobileMenu}><a href="#resume" className={`navClick ${activePage === 'resume' ? 'active' : ''}`} id="resume" onClick={clickHandler}>Resumé</a></li>
                 </ul>
                 <div className="mobileMenu" onClick={handleClick}>
                         {click ? (<CloseMenu className="menuIcon" />) : (<OpenMenu className="menuIcon" />)}

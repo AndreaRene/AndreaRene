@@ -11,7 +11,7 @@
 @media (max-width: 1200px) {
 
     .workGrid {
-        padding: .5rem 0;
+        /* padding: .5rem 0; */
     }
 }
 
@@ -22,7 +22,9 @@
 }
 
 @media (max-width: 768px) {
-
+    .workGrid {
+        margin-bottom: 1rem;
+    }
     }
 
 
