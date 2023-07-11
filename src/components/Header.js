@@ -24,20 +24,18 @@ const Header = (props) => {
                     <p>Andrea René</p>
                     <p>Presto</p>
                 </div>
-                <section>
-                    <ul id='menu' className={click ? "navOptions isActive" : "navOptions"}>
-                        <li className="navLink" onClick={closeMobileMenu}><a href="#about" className={`navClick ${activePage === 'about' ? 'active' : ''}`} id="about" onClick={clickHandler}>Who I Am</a></li>
+                <ul className={click ? "navOptions isActive" : "navOptions"}>
+                    <li className="navLink" onClick={closeMobileMenu}><a href="#about" className={`navClick ${activePage === 'about' ? 'active' : ''}`} id="about" onClick={clickHandler}>Who I Am</a></li>
 
-                        <li className="navLink" onClick={closeMobileMenu}><a href="#portfolio" className={`navClick ${activePage === 'portfolio' ? 'active' : ''}`} id="portfolio" onClick={clickHandler}>What I've Done</a></li>
+                    <li className="navLink" onClick={closeMobileMenu}><a href="#portfolio" className={`navClick ${activePage === 'portfolio' ? 'active' : ''}`} id="portfolio" onClick={clickHandler}>What I've Done</a></li>
 
-                        <li className="navLink" onClick={closeMobileMenu}><a href="#contact" className={`navClick ${activePage === 'contact' ? 'active' : ''}`} id="contact" onClick={clickHandler}>Let's Connect</a></li>
+                    <li className="navLink" onClick={closeMobileMenu}><a href="#contact" className={`navClick ${activePage === 'contact' ? 'active' : ''}`} id="contact" onClick={clickHandler}>Let's Connect</a></li>
 
                         <li className="navLink"onClick={closeMobileMenu}><a href="#resume" className={`navClick ${activePage === 'resume' ? 'active' : ''}`} id="resume" onClick={clickHandler}>Resumé</a></li>
-                    </ul>
-                    <div className="mobileMenu" onClick={handleClick}>
+                </ul>
+                <div className="mobileMenu" onClick={handleClick}>
                         {click ? (<CloseMenu className="menuIcon" />) : (<OpenMenu className="menuIcon" />)}
-                    </div>
-                </section>
+                </div>
             </nav>
         </header>
     )

@@ -10,7 +10,7 @@
     background-color: var(--mainBlue);
     color: var(--lightBlue);
 
-}
+} 
 
 #nameLogo p:first-of-type {
     font-size: 2rem;
@@ -93,6 +93,7 @@
     z-index: 1;
     align-content: center;
     padding-left: 0px;
+    background-color: var(--mainBlue);
   }
 
   .menuIcon {
