@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AndreaRene/static/css/main.e9c3a573.css",
-    "main.js": "/AndreaRene/static/js/main.69e73f02.js",
+    "main.css": "/AndreaRene/static/css/main.ec498a96.css",
+    "main.js": "/AndreaRene/static/js/main.25c60eac.js",
     "static/media/AndreaReneResume.pdf": "/AndreaRene/static/media/AndreaReneResume.6948200c494fc7f14526.pdf",
     "static/media/quickweather.jpeg": "/AndreaRene/static/media/quickweather.7278578eb6a425db963d.jpeg",
     "static/media/insomnia.png": "/AndreaRene/static/media/insomnia.14d8d95d2fb8da81d5eb.png",
@@ -14,11 +14,13 @@
     "static/media/SmallCal.jpg": "/AndreaRene/static/media/SmallCal.46a489dae6fa72a11613.jpg",
     "static/media/email.png": "/AndreaRene/static/media/email.c05eecb5826d6cfd248c.png",
     "index.html": "/AndreaRene/index.html",
-    "main.e9c3a573.css.map": "/AndreaRene/static/css/main.e9c3a573.css.map",
-    "main.69e73f02.js.map": "/AndreaRene/static/js/main.69e73f02.js.map"
+    "static/media/closeBtn.svg": "/AndreaRene/static/media/closeBtn.3c9b6a8bf2ab9e4e518dd2ebfb125300.svg",
+    "static/media/menuBtn.svg": "/AndreaRene/static/media/menuBtn.3a1809c0b179121a1207d829deaaf9e4.svg",
+    "main.ec498a96.css.map": "/AndreaRene/static/css/main.ec498a96.css.map",
+    "main.25c60eac.js.map": "/AndreaRene/static/js/main.25c60eac.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9c3a573.css",
-    "static/js/main.69e73f02.js"
+    "static/css/main.ec498a96.css",
+    "static/js/main.25c60eac.js"
   ]
 }
