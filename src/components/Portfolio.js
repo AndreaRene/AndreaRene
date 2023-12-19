@@ -18,10 +18,10 @@ const data = [
         githubUrl: 'https://github.com/AndreaRene/Peace-Of-Mind_V2'
     },
     {
-        descriptionOne: 'A group of friends and I discussed the visibility that mental health is getting. We agreed that it is still not enough.',
-        descriptionTwo: 'With this site, users will be able to come together and support one another. Mental health is a serious concern and people need a safe space to be able to talk about it without fear.',
+        
+        descriptionOne: 'With this site, users are be able to come together and support one another. Mental health is a serious concern and people need a safe space to be able to talk about it without fear.',
         caption: 'Peace Of Mind',
-        descriptionThree: 'This project is currently spun down. I have left the link for the Github repository, but we recreated the project which you can view in the Peace of Mind V2 section.',
+        descriptionTwo: 'This project is currently spun down. I have left the link for the Github repository, but we recreated the project which you can view in the Peace of Mind V2 section.',
         projectUrl: 'https://github.com/AndreaRene/Peace_of_Mind',
         imageSource: pom,
         altText: 'a small image of the website',
