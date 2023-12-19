@@ -17,8 +17,6 @@
     color: var(--green);
 }
 
-@media (min-width: 1450px) {}
-
 @media (max-width: 1200px) {
     #pageFooter {
         padding: 1rem;
@@ -35,11 +33,8 @@
 @media (max-width: 768px) {
     #pageFooter {
         padding: 1em;
-        /* font-size: 1rem; */
     }
 }
-
-@media (min-width: 560px) and (max-width: 768px) {}
 
 @media (max-width: 480px) {
     #pageFooter {
@@ -51,5 +46,3 @@
         line-height: 1.5rem;
     }
 }
-
-@media (max-width: 380px) {}

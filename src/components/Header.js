@@ -3,7 +3,6 @@ import { useState } from 'react';
 import { ReactComponent as CloseMenu} from "../assets/closeBtn.svg"
 import { ReactComponent as OpenMenu} from "../assets/menuBtn.svg"
 
-//TODO: create slide out menu
 const Header = (props) => {
     const [activePage, setActivePage] = useState('about')
     const clickHandler = (event) => {

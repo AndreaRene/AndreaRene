@@ -8,7 +8,6 @@
 #contact h2 {
     margin: 1rem auto;
     width: 80%;
-    /* padding: 1em; */
     font-size: 3rem;
     text-align: center;
     background-color: var(--lightBlue);
@@ -17,7 +16,6 @@
 
 
 .contactList {
-    /* margin-top: 5rem; */
     text-align: center;
 }
 
@@ -39,14 +37,7 @@
     color: var(--pink);
 }
 
-@media (min-width: 1450px) {}
-
-@media (max-width: 1200px) {}
-
 @media (max-width: 1024px) {
-    #contact {
-        /* padding: .5rem; */
-    }
 
     #contact h2 {
         font-size: 2.5rem;
@@ -71,8 +62,6 @@
     }
 }
 
-@media (min-width: 560px) and (max-width: 768px) {}
-
 @media (max-width: 480px) {
     #contact h2 {
         font-size: 2rem;
@@ -92,5 +81,3 @@
         height: 2rem;
     }
 }
-
-@media (max-width: 380px) {}

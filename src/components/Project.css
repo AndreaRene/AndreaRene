@@ -15,7 +15,6 @@
 .box {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     align-items: stretch;
     width: 50%;
     padding: .8rem;
@@ -79,8 +78,6 @@
     color: var(--green);
 }
 
-@media (min-width: 1450px) {}
-
 @media (max-width: 1450px) {
 
     .box p {
@@ -99,7 +96,6 @@
 @media (max-width: 1024px) {
     .boxGroup {
         width: 90%;
-        /* margin-top: 3rem; */
 }
 
     .boxSection2,
@@ -117,8 +113,6 @@
     }
 
 }
-
-@media (max-width: 768px) {}
 
 @media (min-width: 560px) and (max-width: 768px) {
     .title{
@@ -155,5 +149,3 @@
         width: 80%;
     }
 }
-
-@media (max-width: 380px) {}

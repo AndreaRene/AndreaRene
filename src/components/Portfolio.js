@@ -6,7 +6,6 @@ import quizly from '../assets/quizly.png';
 import SmallCal from '../assets/SmallCal.jpg';
 import pom from '../assets/pom.png';
 import pomv2 from '../assets/pom-v2-v3.png';
-// import README from '../assets/readmeGen.png';
 
 
 const data = [
@@ -63,32 +62,13 @@ const data = [
         altText: 'small image of quiz app',
         githubUrl: 'https://github.com/AndreaRene/Development_Quiz_App'
     },
-    // {
-    //     descriptionOne: 'This command line application will allow the user to create a clean and professional README file through a series of prompts in their terminal. It will then generate the README file that they can use in their repository. ',
-    //     descriptionTwo: 'This README file for this repository was created using this generator.',
-    //     caption: 'README Generator',
-    //     projectUrl: 'https://drive.google.com/file/d/1aPTcs2zxkWzbs2LsGI4GfTGvzT3Chfom/view',
-    //     imageSource: README,
-    //     altText: 'image of calendar app',
-    //     githubUrl: 'https://github.com/AndreaRene/README_Generator'
-    // },
+
 ]
 
 const Portfolio = () => {
     return (
         <main className="workGrid mainSection">
-            {/* <header className='featuredWork'>
-                <div className='featureBox'>
-                    <p>{feature.descriptionOne}</p>
-                    <p>{feature.descriptionTwo}</p>
-                    <p>You can check out the repository on <a href={feature.githubUrl} target="_">GitHub</a></p>
-                </div>
-                <figure className='featureBox'>
-                    <a href={feature.projectUrl} target="_"><img src={feature.imageSource}
-                        alt={feature.altText} /></a>
-                    <figcaption>{feature.caption}</figcaption>
-                </figure>
-            </header> */}
+            
             {data.map((item, i) => {
                 return (
                     <Project

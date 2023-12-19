@@ -1,8 +1,5 @@
 #topNav {
     display: flex;
-    /* position: fixed; */
-    /* z-index: 1; */
-    /* top: 0; */
     overflow: hidden;
     justify-content: space-between;
     width: 100%;
@@ -62,8 +59,6 @@
     }
 }
 
-@media (max-width: 1200px) {}
-
 @media (max-width: 1024px) {
     .navClick {
         font-size: 1.2rem;
@@ -105,9 +100,3 @@
     display: block;
   }
 }
-
-@media (min-width: 560px) and (max-width: 768px) {}
-
-@media (max-width: 480px) {}
-
-@media (max-width: 380px) {}

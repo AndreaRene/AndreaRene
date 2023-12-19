@@ -59,14 +59,6 @@
 
 }
 
-@media (min-width: 1450px) {
-
-    #aboutMe {
-        /* padding: 5rem 15rem; */
-
-    }
-}
-
 @media (max-width: 1200px) {
 
     #aboutMe {
@@ -76,10 +68,6 @@
 }
 
 @media (max-width: 1024px) {
-
-    #aboutMe {
-        /* padding: 1.5rem; */
-    }
 
     #aboutMe h1 {
         font-size: 2.5rem;
@@ -123,14 +111,10 @@
 
 @media (min-width: 560px) and (max-width: 768px) {
 
-    #aboutMe {
-        /* padding: 6rem 2rem .5rem; */
-    }
-
     #aboutMe h1 {
         font-size: 2rem;
     }
-
+    
     #aboutMe h2 {
         font-size: 1.5rem;
 
@@ -165,14 +149,6 @@
 
     .hiddenAbout {
         display: none;
-    }
-
-}
-
-@media (max-width: 380px) {
-
-    #aboutMe {
-        /* padding: 6rem 1rem .5rem; */
     }
 
 }

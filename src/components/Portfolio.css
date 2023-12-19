@@ -3,16 +3,6 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    /* padding: 0; */
-}
-
-@media (min-width: 1450px) {}
-
-@media (max-width: 1200px) {
-
-    .workGrid {
-        /* padding: .5rem 0; */
-    }
 }
 
 @media (max-width: 1024px) {
@@ -25,23 +15,4 @@
     .workGrid {
         margin-bottom: 1rem;
     }
-    }
-
-
-@media (min-width: 560px) and (max-width: 768px) {}
-
-
-@media (max-width: 480px) {
-    /* .workGrid figure,
-    .workGrid p {
-        margin: 1rem auto;
-        width: 80%;
-        text-align: center;
-    } */
-
-    /* .workGrid p {
-        display: none;
-    } */
 }
-
-@media (max-width: 380px) {}
