@@ -1,6 +1,7 @@
 import mailIcon from '../assets/email.png';
 import phone from '../assets/cell.png';
 import github from '../assets/github.png';
+import replit from '../assets/replit.png';
 import linkedIn from '../assets/linkedin.png'
 import './Contact.css';
 //TODO: change color of contact link icons
@@ -21,11 +22,15 @@ const Contact = () => {
                             src={github} className="contactIcon" alt="github icon"/><span
                             className="hidden">
                             github.com/AndreaRene</span></a></li>
+                <li className="contactLink"><a href="https://replit.com/@AndreaRene" target="_" className="contactClick"><img
+                            src={replit} className="contactIcon" alt="replit icon" /><span
+                            className="hidden">
+                            replit.com/@AndreaRene</span></a></li>
                 <li className="contactLink">
                     <a href="https://www.linkedin.com/in/andreapresto/" target="_"
                         className="contactClick"><img src={linkedIn} className="contactIcon"
                         alt="linkedin icon" />
-                    <span className="hidden"> Find me on LinkedIn</span></a></li>
+                    <span className="hidden"> linkedin.com/in/andreapresto</span></a></li>
             </ul>
         </section>
     )
