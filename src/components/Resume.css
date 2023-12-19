@@ -12,7 +12,7 @@
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
     background-color: var(--mainBlue);
     font-size: 1.2rem;
-    color: var(--lightBlue);
+    color: var(--grey);
     text-decoration: none;
     font-weight: bolder;
 }
@@ -38,7 +38,7 @@
     align-items: center;
     height: 3.5rem;
     background-color: var(--mainBlue);
-    color: var(--lightBlue);
+    color: var(--grey);
     border-radius: 1rem 1rem 0 0;
     font-size: 1.2rem;
     font-weight: bold;

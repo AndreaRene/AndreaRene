@@ -5,15 +5,17 @@
     width: 100%;
     padding: 1rem;
     background-color: var(--mainBlue);
-    color: var(--lightBlue);
+    color: var(--brightAttention);
 
 } 
 
 #nameLogo p:first-of-type {
-    font-size: 2rem;
+    letter-spacing: .2rem;
+    font-size: 2.5rem;
     font-family: 'Nothing You Could Do', cursive;
     font-weight: bold;
-    text-shadow: -.05em -.05em var(--pink);
+    text-shadow: -.03em -.03em var(--pink);
+    color: var(--grey)
 }
 
 #topNav p {
@@ -28,7 +30,7 @@
 .navClick {
     font-size: 1.5rem;
     text-decoration: none;
-    color: var(--lightBlue);
+    color: var(--brightAttention);
 }
 
 .navClick:hover {
@@ -49,8 +51,8 @@
     text-decoration: underline;
     text-underline-position: under;
     text-decoration-thickness: .2rem;
-    text-decoration-color: var(--pink);
-    color: var(--green);
+    text-decoration-color: var(--brightAttention);
+    color: var(--pink);
 }
 
 @media (min-width: 1450px) {
