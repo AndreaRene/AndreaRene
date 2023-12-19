@@ -1,17 +1,22 @@
-#contact {
+#contactMe {
     display: flex;
     flex-direction: column;
     align-items:center;
-
+    background-color: var(--mainBlue);
+    width: 70%;
+    border-radius: 5rem;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
-#contact h2 {
+#contactMe h2 {
     margin: 1rem auto;
     width: 80%;
     font-size: 3rem;
     text-align: center;
-    background-color: var(--grey);
-    color: var(--mainBlue);
+    background-color: var(--mainBlue);
+    color: var(--grey);
 }
 
 
@@ -34,12 +39,12 @@
 .contactClick {
     font-size: 1.5rem;
     text-decoration: none;
-    color: var(--pink);
+    color: var(--brightAttention);
 }
 
 @media (max-width: 1024px) {
 
-    #contact h2 {
+    #contactMe h2 {
         font-size: 2.5rem;
     }
 
@@ -49,7 +54,7 @@
 }
 
 @media (max-width: 768px) {
-    #contact h2 {
+    #contactMe h2 {
         font-size: 2rem;
     }
 
@@ -63,7 +68,7 @@
 }
 
 @media (max-width: 480px) {
-    #contact h2 {
+    #contactMe h2 {
         font-size: 2rem;
     }
 

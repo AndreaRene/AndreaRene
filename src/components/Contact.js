@@ -6,8 +6,8 @@ import './Contact.css';
 //TODO: change color of contact link icons
 const Contact = () => {
     return (
-        <section id="contact">
-            <h2>Connect with me! Let's do something <span className="pink">amazing</span>.</h2>
+        <section id="contactMe">
+            <h2>Connect with me! <br /> Let's do something <span className="pink">amazing</span>.</h2>
             <ul className='contactList'>
                 <li className="contactLink"><a href="mailto:andrea@interhact.net" target="_" className="contactClick"><img
                             src={mailIcon} className="contactIcon"

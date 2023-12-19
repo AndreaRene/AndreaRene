@@ -118,7 +118,7 @@
 
 @media (min-width: 560px) and (max-width: 768px) {
     .title{
-        width: 75%;
+        width: 100%;
     }
 }
 

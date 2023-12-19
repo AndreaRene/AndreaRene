@@ -9,12 +9,16 @@
     font-weight: bolder;
     text-align: center;
     background-color: var(--pink);
-    color: var(--grey);
+    color: var(--mainBlue);
 }
 
 .footerClick {
     text-decoration: none;
-    color: var(--mainBlue);
+    color: var(--brightAttention);
+}
+
+.footerClick:hover{
+    color: var(--green);
 }
 
 @media (max-width: 1200px) {
