@@ -39,7 +39,7 @@
 
 #aboutMe img {
     width: 15%;
-    border: .2em solid var(--green);
+    border: .3rem solid var(--mainBlue);
     border-radius: 50%;
 }
 
