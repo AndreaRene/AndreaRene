@@ -26,6 +26,7 @@ const Contact = () => {
                             src={replit} className="contactIcon" alt="replit icon" /><span
                             className="hidden">
                             replit.com/@AndreaRene</span></a></li>
+                            
                 <li className="contactLink">
                     <a href="https://www.linkedin.com/in/andreapresto/" target="_"
                         className="contactClick"><img src={linkedIn} className="contactIcon"

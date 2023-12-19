@@ -39,7 +39,7 @@
 
 #aboutMe img {
     width: 15%;
-    border: .2em solid var(--mainBlue);
+    border: .2em solid var(--green);
     border-radius: 50%;
 }
 
@@ -56,9 +56,20 @@
     margin: 3rem auto;
     text-align: justify;
     line-height: 1.7rem;
-
 }
 
+.aboutLink {
+    color: var(--green);
+    text-decoration: none;
+}
+
+.aboutLink:hover{
+    color: var(--pink);
+    text-decoration: underline;
+    text-decoration-color: var(--green);
+    font-weight: bold;
+
+}
 @media (max-width: 1200px) {
 
     #aboutMe {
