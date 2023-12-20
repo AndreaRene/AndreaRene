@@ -15,7 +15,7 @@ const About = () => {
                 <p>JavaScript... ok?</p>
             </div>
             <div className='left hiddenAbout'>
-                <p>I produce concise and</p>
+                <p>I strive for concise and</p>
                 <p><span className='pink'>performant</span> code with an</p>
                 <p>emphasis on future-proofing.</p>
             </div>
