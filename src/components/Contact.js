@@ -1,5 +1,4 @@
 import mailIcon from '../assets/email.png';
-import phone from '../assets/cell.png';
 import github from '../assets/github.png';
 import replit from '../assets/replit.png';
 import linkedIn from '../assets/linkedin.png'
