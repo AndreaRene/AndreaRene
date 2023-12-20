@@ -14,10 +14,7 @@ const Contact = () => {
                             src={mailIcon} className="contactIcon"
                             alt="email message icon"/>
                         <span className="hidden">andrea@interhact.net</span></a></li>
-                <li className="contactLink"><a href="tel:5129544257" className="contactClick"><img
-                    src={phone} className="contactIcon"
-                            alt="cell phone icon"/> 
-                            <span className="hidden">512.954.4257</span></a></li>
+
                 <li className="contactLink"><a href="https://github.com/AndreaRene" target="_" className="contactClick"><img
                             src={github} className="contactIcon" alt="github icon"/><span
                             className="hidden">
