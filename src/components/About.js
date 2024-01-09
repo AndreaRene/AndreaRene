@@ -26,15 +26,16 @@ const About = () => {
 
             <aside>
                 <p className='info'>
-                    Hi there!  I'm Andrea, a full-stack developer eager to start my development journey with an awesome company. I have a passion for crisp, visually appealing design and performant, modular code on both the front and back-end. Check out what I've done, see what I'm good at, and get in touch! I'd love to hear from you!
+                    My journey in web development began with a fascination for coding, and I've been joyfully navigating the realms of full stack technologies ever since. By day, I lead and mentor aspiring tech wizards in a full stack development bootcamp, turning complex coding puzzles into fun, approachable challenges. Every day is a celebration of new discoveries and 'Eureka!' moments, both for my students and myself.
                 </p>
                 <p className='info'>
-                    I am currently a Teaching Assistant for the bootcamp that I went through to earn my certificate. I've been here almost a year now and I've very much enjoyed teaching the materials. Not only is it amazing when you see someone grasp something, it helps me practice and continue learning as well. 
+                    When the code rests, my adventurous spirit takes over. You might catch me traversing the galaxies of Star Trek, waving a wand in the world of Harry Potter, or diving deep into the realms of sci-fi and fantasy. I'm also a proud gamer, Disney buff, and a connoisseur of all things anime, manga, and graphic novels. 
                 </p>
                 <p className='info'>
-                    Most of the work you will currently see in my portfolio and on my Github account are all class assignments and projects. We learned a variety of skills that built upon each other lesson over lesson. My personal project is going to be a chore app with much more customization and targeting various family shapes and sizes. So far I had been writing and rewriting my queries, mutations, and models. I was finding more and more information on code reusability and I like to tinker. 
-                    </p>
-                    <p className='info'>I have recently put aside my personal project to continue my studies. I have earned a certificate in Python and am now working on C#. You can see my current progress at <a href='https://www.freecodecamp.org/AndreaRene' className='aboutLink'>freecodecamp.org/AndreaRene</a>. At the end of this course, I will have earned a Microsoft Certification in foundational C#. 
+                    But the adventure doesn't stop there! I'm on an exciting mission to transition into a developer role at a company where innovation and creativity are not just encouraged but celebrated. My goal? To weave my passion for coding into impactful projects, to grow and thrive in a dynamic environment, and ultimately, to chart a course towards a bright and fulfilling future.
+                </p>
+                <p className='info'>
+                    Eager to collaborate on a project that needs a sprinkle of creativity and a solid dose of technical skill? Or maybe you're in search of a teammate who brings enthusiasm and a unique perspective? Let's connect! You can find me on LinkedIn, GitHub, or reach out directly for a chat – I'm all about making connections and embarking on new tech adventures!
                 </p>
                 <p className='info'>
                 </p>
