@@ -40,7 +40,7 @@ Special note: I have a love-hate relationship with the challenges I completed to
 
 ## May the list be ever growing:
 
-Here's a fun list of languages, frameworks, etc. I've learned/used for you to peruse:
+Here's a fun list of languages, frameworks, etc. I've learned to use for you to peruse:
 
 <div>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" width="50"/>
@@ -76,3 +76,17 @@ Here's a fun list of languages, frameworks, etc. I've learned/used for you to pe
     <img src="src/assets/insomnia.png" width="50">
     <img src="src/assets/postman.png" width="50">    
 </div>
+
+### Still here?
+
+Okay cool! Here's some numbers things:
+
+<div>
+        <img src="https://github-readme-stats.vercel.app/api?username=andrearene&hide=issues,contribs&theme=dracula" width="500" />
+</div>
+<div>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=andrearene&layout=compact&theme=dracula&hide=procfil" width="500" />
+</div>
+
+Like these number things? Check out anuraghazra's repo: [Github Readme Stats](https://github.com/anuraghazra/github-readme-stats)
+
