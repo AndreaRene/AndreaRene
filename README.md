@@ -10,6 +10,7 @@ I do have a portfolio, but here's the TLDR:
 
 - 🌐 Passionate about web development and coding education.
 - 👩‍🏫 Mentor and guide in a full stack development bootcamp.
+- 🎓 Currently expanding knowlege working towards a certification in C#.
 - 🖖 Sci-fi and fantasy enthusiast - lover of Star Trek, Harry Potter, and more.
 - 🎮 Avid gamer and Disney fan, with a keen interest in anime, manga, and graphic novels.
 - 🌟 Aspiring to transition into a developer role in an innovative company.
@@ -53,4 +54,19 @@ Yes, ok. Here's a fun list of languages, frameworks, etc.:
     <img src="src/assets/figma.png" width="50">
     <img src="src/assets/insomnia.png" width="50">
     <img src="src/assets/postman.png" width="50">    
+</div>
+
+### I did some stuff:
+
+- Certificate in full stack development through UT Austin.
+- Earned at least 100% on all of the assignments and group projects.
+- Certificate - Scientific Computing with Python through freecodecamp.org.
+- Completing more certificate courses on freecodecamp.org. 
+
+Special note: 
+The twists and turns of the Python certification challenges were... quite the adventure. Each hurdle sharpened my skills, though, and I'm really proud of the creative solutions I crafted along the way.
+
+<div>
+    <img src="src/assets/UTCert.png" width="300" />
+    <img src="src/assets/pythoncert.png" width="300" />
 </div>
