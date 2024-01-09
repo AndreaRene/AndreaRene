@@ -45,7 +45,12 @@ Yes, ok. Here's a fun list of languages, frameworks, etc.:
     <img src="src/assets/json.gif" width="50" />
     <img src="src/assets/ajax.png/" width="50"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original-wordmark.svg" width="50"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" width="50"/>
-          
-          
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="50"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain-wordmark.svg" width="50"/>
+    <img src="src/assets/atlas.png" width="50" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="50"/>
+    <img src="src/assets/miro.png" width="50" />
+    <img src="src/assets/figma.png" width="50">
+    <img src="src/assets/insomnia.png" width="50">
+    <img src="src/assets/postman.png" width="50">    
 </div>
