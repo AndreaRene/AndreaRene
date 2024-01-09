@@ -4,9 +4,9 @@
     <a href="https://www.linkedin.com/in/andreapresto/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="25" /></a></h1>
 </div>
 
-### Hello there! I'm Andrea, a spirited Full Stack Developer and Teaching Assistant.
+### Comtrya! I'm Andrea, a spirited Full Stack Developer and Teaching Assistant.
 
-I do have a portfolio, but here's the TLDR:
+I do have a [portfolio](https://andrearene.github.io/AndreaRene/), but here's the TLDR:
 
 - 🌐 Passionate about web development and coding education.
 - 👩‍🏫 Mentor and guide in a full stack development bootcamp.
@@ -17,9 +17,30 @@ I do have a portfolio, but here's the TLDR:
 - 📚 Lifelong learner, constantly evolving and embracing new tech challenges.
 - 💼 Open to collaborations and new opportunities. Let's connect!
 
-## But what do you do?
+## I did some pretty awesome stuff:
 
-Yes, ok. Here's a fun list of languages, frameworks, etc. for your perusal:
+- Certificate in full stack development through UT Austin.
+- Earned at least 100% on all of the assignments and group projects.
+- Certificate - Scientific Computing with Python through freecodecamp.org.
+- Completing more certificate courses on freecodecamp.org. 
+
+Special note: I have a love-hate relationship with the challenges I completed to earn my Python certification. They really pushed, but looking back, I'm glad they did. I'm genuinely proud of the solutions I came up with. Call them a testament to both my stick-to-it-ive-ness and creativity.
+
+<div>
+    <img src="src/assets/UTCert.png" width="300" />
+    <img src="src/assets/pythoncert.png" width="300" />
+</div>
+
+## I wrote some rants(articles) on LinkedIn
+
+- [About confusing baby students with logics](https://www.linkedin.com/pulse/teaching-conditional-statements-real-challengeits-what-andrea-presto/)
+- [About being a lazy coder](https://www.linkedin.com/pulse/im-lazy-i-know-confessions-from-flexbox-nester-andrea-presto/)
+- [About how to play nice with others](https://www.linkedin.com/pulse/i-dont-get-git-why-you-yelling-me-version-control-andrea-presto/)
+- [About cleaning up your code before you  can go play](https://www.linkedin.com/pulse/dry-code-what-i-mean-clean-clear-concise-andrea-presto/)
+
+## May the list be ever growing:
+
+Here's a fun list of languages, frameworks, etc. I've learned/used for you to peruse:
 
 <div>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" width="50"/>
@@ -55,24 +76,3 @@ Yes, ok. Here's a fun list of languages, frameworks, etc. for your perusal:
     <img src="src/assets/insomnia.png" width="50">
     <img src="src/assets/postman.png" width="50">    
 </div>
-
-## I did some pretty awesome stuff:
-
-- Certificate in full stack development through UT Austin.
-- Earned at least 100% on all of the assignments and group projects.
-- Certificate - Scientific Computing with Python through freecodecamp.org.
-- Completing more certificate courses on freecodecamp.org. 
-
-Special note: I have a love-hate relationship with the challenges I completed to earn my Python certification. They really pushed, but looking back, I'm glad they did. I'm genuinely proud of the solutions I came up with. Call them a testament to both my stick-to-it-ive-ness and creativity.
-
-<div>
-    <img src="src/assets/UTCert.png" width="300" />
-    <img src="src/assets/pythoncert.png" width="300" />
-</div>
-
-## I wrote some rants(articles) on LinkedIn
-
-- [About confusing baby students with logics](https://www.linkedin.com/pulse/teaching-conditional-statements-real-challengeits-what-andrea-presto/)
-- [About being a lazy coder](https://www.linkedin.com/pulse/im-lazy-i-know-confessions-from-flexbox-nester-andrea-presto/)
-- [About how to play nice with others](https://www.linkedin.com/pulse/i-dont-get-git-why-you-yelling-me-version-control-andrea-presto/)
-- [About cleaning up your code before you  can go play](https://www.linkedin.com/pulse/dry-code-what-i-mean-clean-clear-concise-andrea-presto/)
