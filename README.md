@@ -17,7 +17,7 @@ I do have a portfolio, but here's the TLDR:
 - 📚 Lifelong learner, constantly evolving and embracing new tech challenges.
 - 💼 Open to collaborations and new opportunities. Let's connect!
 
-### But what do you do?
+## But what do you do?
 
 Yes, ok. Here's a fun list of languages, frameworks, etc. for your perusal:
 
@@ -56,22 +56,21 @@ Yes, ok. Here's a fun list of languages, frameworks, etc. for your perusal:
     <img src="src/assets/postman.png" width="50">    
 </div>
 
-### I did some pretty awesome stuff:
+## I did some pretty awesome stuff:
 
 - Certificate in full stack development through UT Austin.
 - Earned at least 100% on all of the assignments and group projects.
 - Certificate - Scientific Computing with Python through freecodecamp.org.
 - Completing more certificate courses on freecodecamp.org. 
 
-Special note: 
-The twists and turns of the Python certification challenges were... quite the adventure. Each one sharpened my skills, though, and I'm really proud of the creative solutions I crafted along the way.
+Special note: I have a love-hate relationship with the challenges I completed to earn my Python certification. They really pushed, but looking back, I'm glad they did. I'm genuinely proud of the solutions I came up with. Call them a testament to both my stick-to-it-ive-ness and creativity.
 
 <div>
     <img src="src/assets/UTCert.png" width="300" />
     <img src="src/assets/pythoncert.png" width="300" />
 </div>
 
-### I wrote some rants(articles) on LinkedIn
+## I wrote some rants(articles) on LinkedIn
 
 - [About confusing baby students with logics](https://www.linkedin.com/pulse/teaching-conditional-statements-real-challengeits-what-andrea-presto/)
 - [About being a lazy coder](https://www.linkedin.com/pulse/im-lazy-i-know-confessions-from-flexbox-nester-andrea-presto/)
