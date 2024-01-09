@@ -11,7 +11,7 @@
 }
 
 #contactMe h2 {
-    margin: 1rem auto;
+    margin: 1.5rem auto;
     width: 80%;
     font-size: 3rem;
     text-align: center;
@@ -21,6 +21,7 @@
 
 
 .contactList {
+    margin-bottom: 1.5rem;
     text-align: center;
 }
 
@@ -38,6 +39,7 @@
 
 .contactClick {
     font-size: 1.5rem;
+    line-height: 2rem;
     text-decoration: none;
     color: var(--brightAttention);
 }
@@ -58,7 +60,7 @@
         font-size: 2rem;
     }
 
-    .contactLink {
+    .contactClick {
         font-size: 1rem;
     }
 
@@ -68,8 +70,11 @@
 }
 
 @media (max-width: 480px) {
+    #contactMe {
+        width: 90%;
+    }
     #contactMe h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .contactLink {
