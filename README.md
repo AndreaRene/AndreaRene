@@ -27,45 +27,25 @@ Yes, ok. Here's a fun list of languages, frameworks, etc.:
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" width="50"/>
 </div>
 <div>
-    <a href='https://getbootstrap.com/'>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg" width="50" />
-    </a>
-    <a href='https://tailwindcss.com/'> 
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width="50"/>
-    </a>
-    <a href='https://jquery.com/'>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg" width="50"/>
-    </a>
-    <a href='https://expressjs.com/'>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="50"/>
-    </a>
-    <a href='https://react.dev/'>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" width="50"/>
-    </a>
-    <a href='https://materializecss.com/'>
-        <img src="src/assets/materialize.png" width="50"></a>
-    <a href='https://handlebarsjs.com/'>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/handlebars/handlebars-original-wordmark.svg" width="50"/>
-          </a>
-    <a href='http://getskeleton.com/'><img src ="src/assets/skeleton.png" height="50" /></a>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg" width="50" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width="50"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg" width="50"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="50"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" width="50"/>
+    <img src="src/assets/materialize.png" width="50">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/handlebars/handlebars-original-wordmark.svg" width="50"/>
+    <img src ="src/assets/skeleton.png" height="50" />
 </div>
-<div>
-    <a href='https://git-scm.com/'>            
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg" width="50"/>          
-          </a>
-    <a href='https://nodejs.org/en/about'>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="50"/>
-          </a>
-    <a href='https://www.mysql.com/'></a>
-    <a href='https://www.sqlite.org/index.html'></a>
-    <a href='https://sequelize.org/'></a>
-    <a href='https://www.mongodb.com/'></i></a>
-    <a href='https://mongoosejs.com/docs'>
-        <img src="src/assets/mongoose.png" width="50"/></a>
-    <a href='https://graphql.org/'>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain-wordmark.svg"width="50" />
-    </a>
+<div>        
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg" width="50"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="50"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain-wordmark.svg" width="50"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="50"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" width="50"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" width="50"/>
+    <img src="src/assets/mongoose.png" width="50"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain-wordmark.svg"width="50" />
     <img src="src/assets/bash.png" width="50"/>
-    <a href='https://www.json.org/json-en.html'className='resumeClick'><img src="src/assets/json.gif" width="50" /></a>
-    <a href='https://api.jquery.com/category/ajax/'className='resumeClick'><img src="src/assets/ajax.png/" width="50"/></a>
+    <img src="src/assets/json.gif" width="50" />
+    <img src="src/assets/ajax.png/" width="50"/>
 </div>
