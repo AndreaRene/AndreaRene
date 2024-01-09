@@ -24,7 +24,7 @@ I do have a [portfolio](https://andrearene.github.io/AndreaRene/), but here's th
 - Certificate - Scientific Computing with Python through freecodecamp.org.
 - Completing more certificate courses on freecodecamp.org. 
 
-Special note: I have a love-hate relationship with the challenges I completed to earn my Python certification. They really pushed, but looking back, I'm glad they did. I'm genuinely proud of the solutions I came up with. Call them a testament to both my stick-to-it-ive-ness and creativity.
+Special note: I have a love-hate relationship with the challenges I completed to earn my Python certification. They really pushed, but looking back, I'm glad they did. I'm genuinely proud of the solutions I came up with. Call them a testament to both my stick-to-it-ive-ness and creativity. You can see them on my [Replit](https://replit.com/@AndreaRene)!
 
 <div>
     <img src="src/assets/UTCert.png" width="300" />
