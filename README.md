@@ -37,6 +37,7 @@ Special note: I have a love-hate relationship with the challenges I completed to
 - [About being a lazy coder](https://www.linkedin.com/pulse/im-lazy-i-know-confessions-from-flexbox-nester-andrea-presto/)
 - [About how to play nice with others](https://www.linkedin.com/pulse/i-dont-get-git-why-you-yelling-me-version-control-andrea-presto/)
 - [About cleaning up your code before you  can go play](https://www.linkedin.com/pulse/dry-code-what-i-mean-clean-clear-concise-andrea-presto/)
+- [About blue bananas and passing values in C#](https://www.linkedin.com/pulse/blue-bananas-confused-potatoes-photographic-journey-through-presto-qptse/)
 
 ## May the list be ever growing
 
