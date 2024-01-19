@@ -86,7 +86,7 @@ Okay cool! Here's some numbers things:
         <img src="https://github-readme-stats.vercel.app/api?username=andrearene&hide=issues,contribs&theme=dracula" width="500" />
 </div>
 <div>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=andrearene&layout=compact&theme=dracula&hide=procfile" width="500" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=andrearene&layout=compact&theme=dracula&hide=procfile&langs_count=6" width="500" />
 </div>
 
 Like these number things? Check out anuraghazra's repo: [Github Readme Stats](https://github.com/anuraghazra/github-readme-stats)
