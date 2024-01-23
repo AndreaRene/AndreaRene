@@ -81,6 +81,7 @@ Here's a fun list of languages, frameworks, etc. I've learned to use for you to 
 ### Still here?
 
 Okay cool! Here's some numbers things:
+(I believe the top langs count is incorrectly assigning Python a high percentage. I am looking into why that may be.)
 
 <div>
         <img src="https://github-readme-stats.vercel.app/api?username=andrearene&hide=issues,contribs&theme=dracula" width="500" />
