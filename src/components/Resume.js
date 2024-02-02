@@ -2,15 +2,16 @@ import './Resume.css';
 import miro from '../assets/miro.png';
 import insomnia from '../assets/insomnia.png';
 import materialize from '../assets/materialize.png';
-import skeleton from '../assets/skeleton.png'
-import mongoose from '../assets/mongoose.png'
-import bash from '../assets/bash.png'
-import json from '../assets/json.gif'
-import ajax from '../assets/ajax.png'
-import atlas from '../assets/atlas.png'
-import postman from '../assets/postman.png'
-import figma from '../assets/figma.png'
+import skeleton from '../assets/skeleton.png';
+import mongoose from '../assets/mongoose.png';
+import bash from '../assets/bash.png';
+import json from '../assets/json.gif';
+import ajax from '../assets/ajax.png';
+import atlas from '../assets/atlas.png';
+import postman from '../assets/postman.png';
+import figma from '../assets/figma.png';
 import resume from '../assets/AndreaReneResume.pdf';
+
 
 const Resume = () => {
     return (
@@ -26,7 +27,7 @@ const Resume = () => {
                         <i className="devicon-css3-plain colored"></i>
                         <i className="devicon-javascript-plain"></i>
                         <i class="devicon-python-plain colored"></i>
-          
+                        <i class="devicon-csharp-plain colored"></i>
           
                     </div>
                 </section>

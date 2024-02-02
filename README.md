@@ -22,6 +22,7 @@ I do have a [portfolio](https://andrearene.github.io/AndreaRene/), but here's th
 - Certificate in full stack development through UT Austin.
 - Earned at least 100% on all of the assignments and group projects.
 - Certificate - Scientific Computing with Python through freecodecamp.org.
+- Certificate - Foundational C# with Microsoft.
 - Completing more certificate courses on freecodecamp.org.
 
 Special note: I have a love-hate relationship with the challenges I completed to earn my Python certification. They really pushed, but looking back, I'm glad they did. I'm genuinely proud of the solutions I came up with. Call them a testament to both my stick-to-it-ive-ness and creativity. You can see them on my [Replit](https://replit.com/@AndreaRene)!
@@ -29,6 +30,7 @@ Special note: I have a love-hate relationship with the challenges I completed to
 <div>
     <img src="src/assets/UTCert.png" width="300" alt="image of bootcamp certification"/>
     <img src="src/assets/pythoncert.png" width="300" alt="image of python certification"/>
+    <img src="src/assets/cSharpCert.png" width="300" alt="image of c sharp certification">
 </div>
 
 ## I wrote some rants(articles) on LinkedIn
@@ -36,7 +38,7 @@ Special note: I have a love-hate relationship with the challenges I completed to
 - [About confusing baby students with logics](https://www.linkedin.com/pulse/teaching-conditional-statements-real-challengeits-what-andrea-presto/)
 - [About being a lazy coder](https://www.linkedin.com/pulse/im-lazy-i-know-confessions-from-flexbox-nester-andrea-presto/)
 - [About how to play nice with others](https://www.linkedin.com/pulse/i-dont-get-git-why-you-yelling-me-version-control-andrea-presto/)
-- [About cleaning up your code before you  can go play](https://www.linkedin.com/pulse/dry-code-what-i-mean-clean-clear-concise-andrea-presto/)
+- [About cleaning up your code before you can go play](https://www.linkedin.com/pulse/dry-code-what-i-mean-clean-clear-concise-andrea-presto/)
 - [About blue bananas and passing values in C#](https://www.linkedin.com/pulse/blue-bananas-confused-potatoes-photographic-journey-through-presto-qptse/)
 
 ## May the list be ever growing
@@ -48,6 +50,7 @@ Here's a fun list of languages, frameworks, etc. I've learned to use for you to 
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width="50" alt="javascript icon"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50" alt="css three icon"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" width="50" alt="python icon"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="50" alt="c sharp logo" />
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg" width="50" alt="bootstrap icon" />
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width="50" alt="tailwind icon"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg" width="50" alt="jquery icon"/>
