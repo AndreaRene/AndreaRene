@@ -10,7 +10,7 @@ I do have a [portfolio](https://andrearene.github.io/AndreaRene/), but here's th
 
 - 🌐 Passionate about web development and coding education.
 - 👩‍🏫 Mentor and guide in a full stack development bootcamp.
-- 🎓 Currently expanding knowlege working towards a certification in C#.
+- 🎓 Currently expanding knowlege working towards a certification in AWS.
 - 🖖 Sci-fi and fantasy enthusiast - lover of Star Trek, Harry Potter, and more.
 - 🎮 Avid gamer and Disney fan, with a keen interest in anime, manga, and graphic novels.
 - 🌟 Aspiring to transition into a developer role in an innovative company.
