@@ -23,7 +23,7 @@ I do have a [portfolio](https://andrearene.github.io/AndreaRene/), but here's th
 - Earned at least 100% on all of the assignments and group projects.
 - Certificate - Scientific Computing with Python through freecodecamp.org.
 - Certificate - Foundational C# with Microsoft.
-- Completing more certificate courses on freecodecamp.org.
+- Working towards AWS Cloud Practitioner certification.
 
 Special note: I have a love-hate relationship with the challenges I completed to earn my Python certification. They really pushed, but looking back, I'm glad they did. I'm genuinely proud of the solutions I came up with. Call them a testament to both my stick-to-it-ive-ness and creativity. You can see them on my [Replit](https://replit.com/@AndreaRene)!
 
