@@ -76,7 +76,6 @@ Here's a fun list of languages, frameworks, etc. I've learned to use for you to 
     <img src="src/assets/atlas.png" width="50" alt="atlas icon" />
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="50" alt="vscode icon"/>
     <img src="src/assets/miro.png" width="50" alt="miro icon" />
-    <img src="src/assets/figma.png" width="50" alt="figma icon" />
     <img src="src/assets/insomnia.png" width="50" alt="insomnia icon" />
     <img src="src/assets/postman.png" width="50" alt="postman icon" />
 </div>
@@ -85,13 +84,11 @@ Here's a fun list of languages, frameworks, etc. I've learned to use for you to 
 
 Okay cool! Here's some numbers things:
 
-(I believe the top langs count is incorrectly assigning Python a high percentage. I am looking into why that may be.)
-
 <div>
         <img src="https://github-readme-stats.vercel.app/api?username=andrearene&hide=issues,contribs&theme=dracula" width="500" />
 </div>
 <div>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=andrearene&layout=compact&theme=dracula&hide=procfile&langs_count=6" width="500" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=andrearene&layout=compact&theme=dracula&hide=procfile,nix&langs_count=6&size_weight=0&count_weight=1" width="500" />
 </div>
 
 Like these number things? Check out anuraghazra's repo: [Github Readme Stats](https://github.com/anuraghazra/github-readme-stats)
