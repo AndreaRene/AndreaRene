@@ -74,7 +74,7 @@ const Resume = () => {
                         <a href='https://about.gitlab.com/' target='_' className='resumeClick'><i class="devicon-gitlab-plain-wordmark colored"></i></a>
                         <a href='https://github.com/' target='_' className='resumeClick'><i className="devicon-github-original colored"></i></a>
                         <a href='https://www.heroku.com/' target='_' className='resumeClick'><i className="devicon-heroku-plain colored"></i></a>
-                        <a href='https://www.mongodb.com/https://www.heroku.com/' target='_' className='resumeClick'><img src= {atlas} alt='mongodb atlas logo'/></a>
+                        <a href='https://www.mongodb.com/atlas' target='_' className='resumeClick'><img src= {atlas} alt='mongodb atlas logo'/></a>
                     </div>
                 </section>
 
