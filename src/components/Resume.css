@@ -1,148 +1,232 @@
 .resumePage {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .cardDeck {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 
-.cardDeck .card {
-    width: 15%;
-    height: 20rem;
-    border-radius: 1rem;
-    padding: 0;
-    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+.cardDeck
+	.card {
+	width: 15%;
+	height: 20rem;
+	border-radius: 1rem;
+	padding: 0;
+	box-shadow: rgba(
+				0,
+				0,
+				0,
+				0.07
+			)
+			0px
+			1px
+			2px,
+		rgba(
+				0,
+				0,
+				0,
+				0.07
+			)
+			0px
+			2px
+			4px,
+		rgba(
+				0,
+				0,
+				0,
+				0.07
+			)
+			0px
+			4px
+			8px,
+		rgba(
+				0,
+				0,
+				0,
+				0.07
+			)
+			0px
+			8px
+			16px,
+		rgba(
+				0,
+				0,
+				0,
+				0.07
+			)
+			0px
+			16px
+			32px,
+		rgba(
+				0,
+				0,
+				0,
+				0.07
+			)
+			0px
+			32px
+			64px;
 }
 
-.card .cardHeader {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 3.5rem;
-    background-color: var(--brightAttention);
-    color: var(--mainBlue);
-    border-radius: 1rem 1rem 0 0;
-    font-size: 1.35rem;
-    font-weight: bold;
-
+.card
+	.cardHeader {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 3.5rem;
+	color: var(
+		--brightAttention
+	);
+	background-color: var(
+		--mainBlue
+	);
+	border-radius: 1rem
+		1rem
+		0
+		0;
+	font-size: 1.35rem;
+	font-weight: bold;
 }
 
-.card .cardBody {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0 0 1rem 1rem;
-    height: 80%;
-    margin: 0;
+.card
+	.cardBody {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0
+		0
+		1rem
+		1rem;
+	height: 80%;
+	margin: 0;
 }
 
-.icons i {
-    margin: .5rem;
-    font-size: 3rem;
-    color: var(--mainBlue)
+.icons
+	i {
+	margin: 0.5rem;
+	font-size: 3rem;
+	color: var(
+		--mainBlue
+	);
 }
 
-.icons img {
-    margin: .5rem;
-    height: 3rem;
-    width: auto;
-
+.icons
+	img {
+	margin: 0.5rem;
+	height: 3rem;
+	width: auto;
 }
-
-
 
 .icons {
-    margin: 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+	margin: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 #downloadResume {
-    margin-top: 6rem;
-    border-radius: 1rem;
-    padding: 1.5rem;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-    background-color: var(--brightAttention);
-    font-size: 1.5rem;
-    color: var(--mainBlue);
-    text-decoration: none;
-    font-weight: bolder;
+	margin-top: 6rem;
+	border-radius: 1rem;
+	padding: 1.5rem;
+	box-shadow: rgba(
+				0,
+				0,
+				0,
+				0.1
+			)
+			0px
+			10px
+			15px -3px,
+		rgba(
+				0,
+				0,
+				0,
+				0.05
+			)
+			0px
+			4px
+			6px -2px;
+	background-color: var(
+		--brightAttention
+	);
+	font-size: 1.5rem;
+	color: var(
+		--mainBlue
+	);
+	text-decoration: none;
+	font-weight: bolder;
 }
 
-.resumeClick{
-    text-decoration: none;
+.resumeClick {
+	text-decoration: none;
 }
 
 @media (max-width: 1024px) {
-    
-    .resumePage {
-        flex-direction: column-reverse;
-    }
+	.resumePage {
+		flex-direction: column-reverse;
+	}
 
-    #downloadResume {
-        margin-top: 3rem;
-    }
-    
-    .cardDeck {
-        width: 90%;
-        padding: 4rem;
-    }
-    
-    .cardDeck .card {
-        width: 24%;
-        margin: 2rem;
-    }
+	#downloadResume {
+		margin-top: 3rem;
+	}
 
+	.cardDeck {
+		width: 90%;
+		padding: 4rem;
+	}
+
+	.cardDeck
+		.card {
+		width: 24%;
+		margin: 2rem;
+	}
 }
 
 @media (max-width: 920px) {
+	.cardDeck {
+		width: 98%;
+	}
 
-    .cardDeck{
-        width: 98%;
-    }
-    
-    .cardDeck .card {
-        width: 35%;
-    }
-    
-    .card .cardHeader{
-        font-size: 1.4rem;
-    }
-    
+	.cardDeck
+		.card {
+		width: 35%;
+	}
+
+	.card
+		.cardHeader {
+		font-size: 1.4rem;
+	}
 }
 
 @media (max-width: 768px) {
+	.cardDeck {
+		padding: 2rem
+			0.5rem;
+	}
 
-    .cardDeck {
-        padding: 2rem .5rem;
-    }
-
-    .card .cardHeader {
-        font-size: 1rem;
-    }
-    
+	.card
+		.cardHeader {
+		font-size: 1rem;
+	}
 }
 
 @media (max-width: 480px) {
-    
-    .cardDeck{
-        width: 90%;
-    }
-    
-    .cardDeck .card{
-        width: 80%;
-        height: 16rem;
-    }
-    .cardHeader{
-        font-size: .8rem;
-    }
-    
+	.cardDeck {
+		width: 90%;
+	}
+
+	.cardDeck
+		.card {
+		width: 80%;
+		height: 16rem;
+	}
+	.cardHeader {
+		font-size: 0.8rem;
+	}
 }

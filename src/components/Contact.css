@@ -1,93 +1,108 @@
 #contactMe {
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    background-color: var(--mainBlue);
-    width: 70%;
-    border-radius: 5rem;
-    margin: 0 auto;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: var(
+		--mainBlue
+	);
+	/* width: 70%; */
+	padding: 3rem
+		15rem;
+
+	border-radius: 5rem;
+	margin: 0
+		auto;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 }
 
-#contactMe h2 {
-    margin: 1.5rem auto;
-    width: 80%;
-    font-size: 3rem;
-    text-align: center;
-    background-color: var(--mainBlue);
-    color: var(--grey);
+#contactMe
+	h2 {
+	margin: 1.5rem
+		auto;
+	width: 80%;
+	font-size: 3rem;
+	text-align: center;
+	background-color: var(
+		--mainBlue
+	);
+	color: var(
+		--grey
+	);
 }
-
 
 .contactList {
-    margin-bottom: 1.5rem;
-    text-align: center;
+	margin-bottom: 1.5rem;
+	text-align: center;
 }
 
 .contactIcon {
-    vertical-align: middle;
-    margin-right: .5em;
-    width: auto;
-    height: 2rem;
+	vertical-align: middle;
+	margin-right: 0.5em;
+	width: auto;
+	height: 2rem;
 }
 
 .contactLink {
-    margin: .3rem;
-    font-size: 3rem;
+	margin: 0.3rem;
+	font-size: 3rem;
 }
 
 .contactClick {
-    font-size: 1.5rem;
-    line-height: 2rem;
-    text-decoration: none;
-    color: var(--brightAttention);
+	font-size: 1.5rem;
+	line-height: 2rem;
+	text-decoration: none;
+	color: var(
+		--brightAttention
+	);
 }
 
 @media (max-width: 1024px) {
+	#contactMe
+		h2 {
+		font-size: 2.5rem;
+	}
 
-    #contactMe h2 {
-        font-size: 2.5rem;
-    }
-
-    .contactLink {
-        font-size: 2rem;
-    }
+	.contactLink {
+		font-size: 2rem;
+	}
 }
 
 @media (max-width: 768px) {
-    #contactMe h2 {
-        font-size: 2rem;
-    }
+	#contactMe
+		h2 {
+		font-size: 2rem;
+	}
 
-    .contactClick {
-        font-size: 1rem;
-    }
+	.contactClick {
+		font-size: 1rem;
+	}
 
-    .contactIcon {
-        height: 1.5rem;
-    }
+	.contactIcon {
+		height: 1.5rem;
+	}
 }
 
 @media (max-width: 480px) {
-    #contactMe {
-        width: 90%;
-    }
-    #contactMe h2 {
-        font-size: 1.5rem;
-    }
+	#contactMe {
+		width: 90%;
+	}
+	#contactMe
+		h2 {
+		font-size: 1.5rem;
+	}
 
-    .contactLink {
-        display: inline-block;
-        margin: .5em -.25em;
-    }
+	.contactLink {
+		display: inline-block;
+		margin: 0.5em -0.25em;
+	}
 
-    .hidden {
-        display: none;
-    }
+	.hidden {
+		display: none;
+	}
 
-    .contactIcon {
-        margin: .7rem;
-        height: 2rem;
-    }
+	.contactIcon {
+		margin: 0.7rem;
+		height: 2rem;
+	}
 }

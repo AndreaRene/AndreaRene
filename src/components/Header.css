@@ -1,104 +1,132 @@
 #topNav {
-    display: flex;
-    overflow: hidden;
-    justify-content: space-between;
-    width: 100%;
-    padding: 1rem;
-    background-color: var(--mainBlue);
-    color: var(--brightAttention);
-
-} 
-
-#nameLogo p:first-of-type {
-    letter-spacing: .2rem;
-    font-size: 2.5rem;
-    font-family: 'Nothing You Could Do', cursive;
-    font-weight: bold;
-    text-shadow: -.03em -.03em var(--pink);
-    color: var(--grey)
+	display: flex;
+	overflow: hidden;
+	justify-content: space-between;
+	width: 100%;
+	padding: 1rem
+		4rem;
+	background-color: var(
+		--mainBlue
+	);
+	color: var(
+		--brightAttention
+	);
 }
 
-#topNav p {
-    text-align: center;
+#nameLogo
+	p:first-of-type {
+	letter-spacing: 0.2rem;
+	font-size: 2.5rem;
+	font-family: 'Nothing You Could Do',
+		cursive;
+	font-weight: bold;
+	text-shadow: -0.03em -0.03em
+		var(
+			--pink
+		);
+	color: var(
+		--grey
+	);
+}
+
+#topNav
+	p {
+	text-align: center;
 }
 
 .navLink {
-    display: inline-block;
-    padding: .8rem .5rem;
+	display: inline-block;
+	padding: 0.8rem
+		0.5rem;
 }
 
 .navClick {
-    font-size: 1.5rem;
-    text-decoration: none;
-    color: var(--brightAttention);
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: var(
+		--brightAttention
+	);
 }
 
 .navClick:hover {
-    font-weight: bolder;
-    text-decoration: underline;
-    text-underline-position: under;
-    text-decoration-thickness: .2rem;
-    text-decoration-color: var(--pink);
-    color: var(--green);
+	font-weight: bolder;
+	text-decoration: underline;
+	text-underline-position: under;
+	text-decoration-thickness: 0.2rem;
+	text-decoration-color: var(
+		--pink
+	);
+	color: var(
+		--green
+	);
 }
 
-.mobileMenu{
-    display: none;
+.mobileMenu {
+	display: none;
 }
 
 .active {
-    font-weight: bolder;
-    text-decoration: underline;
-    text-underline-position: under;
-    text-decoration-thickness: .2rem;
-    text-decoration-color: var(--brightAttention);
-    color: var(--pink);
+	font-weight: bolder;
+	text-decoration: underline;
+	text-underline-position: under;
+	text-decoration-thickness: 0.2rem;
+	text-decoration-color: var(
+		--brightAttention
+	);
+	color: var(
+		--pink
+	);
 }
 
 @media (min-width: 1450px) {
-        .navClick {
-        font-size: 1.5rem;
-    }
+	.navClick {
+		font-size: 1.5rem;
+	}
 }
 
 @media (max-width: 1024px) {
-    .navClick {
-        font-size: 1.2rem;
-    }
+	.navClick {
+		font-size: 1.2rem;
+	}
 }
 
 @media (max-width: 768px) {
+	.navOptions {
+		display: flex;
+		width: 100%;
+		height: 350px;
+		position: absolute;
+		top: 80px;
+		left: -100%;
+		opacity: 0;
+		transition: all
+			0.5s
+			ease;
+		flex-direction: column;
+		list-style-type: none;
+		grid-gap: 0px;
+	}
 
-   .navOptions {
-    display: flex;
-    width: 100%;
-    height: 350px;
-    position: absolute;
-    top: 80px;
-    left: -100%;
-    opacity: 0;
-    transition: all 0.5s ease;
-    flex-direction: column;
-    list-style-type: none;
-    grid-gap: 0px;
-  }
+	.navOptions.isActive {
+		left: 0;
+		opacity: 1;
+		transition: all
+			0.5s
+			ease;
+		z-index: 1;
+		align-content: center;
+		padding-left: 0px;
+		background-color: var(
+			--mainBlue
+		);
+	}
 
-  .navOptions.isActive {
-    left: 0;
-    opacity: 1;
-    transition: all 0.5s ease;
-    z-index: 1;
-    align-content: center;
-    padding-left: 0px;
-    background-color: var(--mainBlue);
-  }
+	.menuIcon {
+		width: 45px;
+		height: 45px;
+	}
 
-  .menuIcon {
-    width: 45px;
-    height: 45px;
-  }
-
-  .mobileMenu {
-    display: block;
-  }
+	.mobileMenu {
+		display: block;
+	}
 }

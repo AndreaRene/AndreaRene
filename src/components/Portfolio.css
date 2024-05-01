@@ -1,18 +1,18 @@
 .workGrid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
 }
 
 @media (max-width: 1024px) {
-    .workGrid{
-        flex-direction: column;
-    }
+	.workGrid {
+		flex-direction: column;
+	}
 }
 
 @media (max-width: 768px) {
-    .workGrid {
-        margin-bottom: 1rem;
-    }
+	.workGrid {
+		margin-bottom: 1rem;
+	}
 }
