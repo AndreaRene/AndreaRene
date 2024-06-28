@@ -3,7 +3,12 @@ name: Deploy React App to GitHub Pages
 on:
   push:
     branches:
-      - main  # Trigger deployment on push to main branch
+      - main # Trigger deployment on push to main branch
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   build-and-deploy:
@@ -16,10 +21,10 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: "14"
 
       - name: Install dependencies
-        run: npm install  # Use npm ci if you prefer
+        run: npm install # Use npm ci if you prefer
 
       - name: Build the React app
         run: npm run build
@@ -27,8 +32,8 @@ jobs:
       - name: Deploy React to GitHub Pages
         uses: bitovi/github-actions-react-to-github-pages@v1.2.4
         with:
-          checkout: true  # Default is true, no need to specify unless you want to change it
-          path: build  # For Create React App, the default output directory is build
-          install_command: npm install  # Default is npm ci, change if necessary
-          build_command: npm run build  # Default is npm run build
-          caching: true  # Enable caching for faster builds
+          checkout: true # Default is true, no need to specify unless you want to change it
+          path: build # For Create React App, the default output directory is build
+          install_command: npm install # Default is npm ci, change if necessary
+          build_command: npm run build # Default is npm run build
+          caching: true # Enable caching for faster builds
