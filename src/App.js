@@ -1,35 +1,31 @@
-import { useState } from 'react';
-import './App.css';
-import Header from './components/Header';
-import About from './components/About';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
-import Resume from './components/Resume';
-import Footer from './components/Footer';
+import { useState } from "react";
+import "./App.css";
+import Header from "./components/Header";
+import About from "./components/About";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
+import Resume from "./components/Resume";
+import Footer from "./components/Footer";
 
 function App() {
-  const [content, setContent] = useState('about');
+  const [content, setContent] = useState("about");
   const Rendered = () => {
     switch (content) {
-      case 'about':
-        return <About />
-        break;
-      case 'portfolio':
-        return <Portfolio />
-        break;
-      case 'contact':
-        return <Contact />
-        break;
-      case 'resume':
-        return <Resume />
-        break;
+      case "about":
+        return <About />;
+      case "portfolio":
+        return <Portfolio />;
+      case "contact":
+        return <Contact />;
+      case "resume":
+        return <Resume />;
+      default:
+        return <About />;
     }
-  }
+  };
   return (
     <div className="App">
-      <Header content={content}
-        setContent={setContent}
-      />
+      <Header content={content} setContent={setContent} />
       <Rendered />
       <Footer />
     </div>
