@@ -4,6 +4,14 @@
     <a href="https://www.linkedin.com/in/andreapresto/" alt="a link to Andrea's linkedin profile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="25" alt="linkedin icon"/></a></h1>
 </div>
 
+### NOTE! I am in the process of creating a new portfolio!
+
+This repository will be retired once it is complete. Here's a sneak peak!
+
+<img src="./src/assets/new_portfolio.gif" alt="Demo of Portfolio" width="250"/>
+
+See my progress in my new repository: [AndreaRenePortfolio](https://github.com/AndreaRene/AndreaRenePortfolio)
+
 ### Comtrya! I'm Andrea, a spirited Full Stack Developer and Teaching Assistant
 
 I do have a [portfolio](https://andrearene.github.io/AndreaRene/), but here's the TLDR:
