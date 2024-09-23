@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/AndreaRene/static/css/main.8257f526.css",
-    "main.js": "/AndreaRene/static/js/main.465646f4.js",
+    "main.css": "/AndreaRene/static/css/main.88f25763.css",
+    "main.js": "/AndreaRene/static/js/main.eb7b48ae.js",
     "static/media/avatarthumb.png": "/AndreaRene/static/media/avatarthumb.ddfd426e12b66f88387e.png",
     "static/media/quickweather.jpeg": "/AndreaRene/static/media/quickweather.7278578eb6a425db963d.jpeg",
     "static/media/insomnia.png": "/AndreaRene/static/media/insomnia.14d8d95d2fb8da81d5eb.png",
-    "static/media/AndreaReneResume.pdf": "/AndreaRene/static/media/AndreaReneResume.18658afd4bf3fea82e34.pdf",
+    "static/media/AndreaReneResume.pdf": "/AndreaRene/static/media/AndreaReneResume.77d33346acaef0658e46.pdf",
     "static/media/pom-v2-v3.png": "/AndreaRene/static/media/pom-v2-v3.ced3faf481897e22b3da.png",
     "static/media/miro.png": "/AndreaRene/static/media/miro.a3e782ed376f44d8bfc2.png",
     "static/media/totr.png": "/AndreaRene/static/media/totr.9a54d8ac7d623723dcb9.png",
@@ -20,11 +20,11 @@
     "index.html": "/AndreaRene/index.html",
     "static/media/closeBtn.svg": "/AndreaRene/static/media/closeBtn.3c9b6a8bf2ab9e4e518dd2ebfb125300.svg",
     "static/media/menuBtn.svg": "/AndreaRene/static/media/menuBtn.3a1809c0b179121a1207d829deaaf9e4.svg",
-    "main.8257f526.css.map": "/AndreaRene/static/css/main.8257f526.css.map",
-    "main.465646f4.js.map": "/AndreaRene/static/js/main.465646f4.js.map"
+    "main.88f25763.css.map": "/AndreaRene/static/css/main.88f25763.css.map",
+    "main.eb7b48ae.js.map": "/AndreaRene/static/js/main.eb7b48ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.8257f526.css",
-    "static/js/main.465646f4.js"
+    "static/css/main.88f25763.css",
+    "static/js/main.eb7b48ae.js"
   ]
 }
