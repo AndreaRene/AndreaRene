@@ -10,7 +10,12 @@ This repository will be retired once it is complete. Here's a sneak peak!
 
 <img src="./src/assets/new_portfolio.gif" alt="Demo of Portfolio" width="250"/>
 
-See my progress in my new repository: [AndreaRenePortfolio](https://github.com/AndreaRene/AndreaRenePortfolio)
+See my progress:
+
+- in my new repository: [AndreaRenePortfolio](https://github.com/AndreaRene/AndreaRenePortfolio)
+- in my new deployment: [Keep up with my new site as it's being built! :D](https://andrearene.github.io/AndreaRenePortfolio/#/)
+
+(please note, responsive design is not currently present!)
 
 ### Comtrya! I'm Andrea, a spirited Full Stack Developer and Teaching Assistant
 
