@@ -1,153 +1,148 @@
 .boxGroup {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 45%;
-    padding: 0;
-    margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  padding: 0;
+  margin: 0;
 }
 
 .boxSection3,
 .boxSection4 {
-    flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 .box {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    width: 50%;
-    padding: .8rem;
-    color: var(--mainBlue)
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 50%;
+  padding: 0.8rem;
+  color: var(--mainBlue);
 }
 
 .box p {
-    margin: .7rem 0;
-    line-height: 1.3rem;
-    text-align: justify;
+  margin: 0.7rem 0;
+  line-height: 1.3rem;
+  text-align: justify;
 }
 
 .box img {
-    width: 100%;
+  width: 100%;
 }
 
 .box a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .box .repoIcons {
-    color: var(--brightAttention);
-    font-size: 2rem;
+  color: white;
+  font-size: 2rem;
 }
 
 .repoIcons:hover {
-    color: var(--pink);
+  font-size: 2.1rem;
 }
 
-
-
 .title {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 80%;
-    padding: .7em 1em;
-    text-align: center;
-    background-color: var(--mainBlue);
-    border-radius: .3rem;
-    margin: 2rem auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  height: 3.5rem;
+  /* padding: 0.7em 1em; */
+  text-align: center;
+  background-color: var(--mainBlue);
+  border-radius: 0.3rem;
+  margin: 2rem auto;
 }
 
 .title a {
-    font-weight: bold;
-    font-size: 1.2rem;
-    color: var(--pink);
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: var(--pink);
 }
 
 .title .projectLink {
-    text-decoration: underline;
-    text-underline-position: under;
-    text-decoration-thickness: .2rem;
-    text-decoration-color: var(--brightAttention);
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-thickness: 0.2rem;
+  text-decoration-color: var(--brightAttention);
 }
 
 .projectLink:hover {
-    font-weight: bolder;
-    text-decoration: underline;
-    text-underline-position: under;
-    text-decoration-thickness: .2rem;
-    text-decoration-color: var(--pink);
-    color: var(--green);
+  font-weight: bolder;
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-thickness: 0.2rem;
+  text-decoration-color: var(--pink);
+  color: var(--green);
 }
 
 @media (max-width: 1450px) {
-
-    .box p {
-        line-height: 1rem;
-    }
+  .box p {
+    line-height: 1rem;
+  }
 }
 
 @media (max-width: 1200px) {
-    .title {
-        width: 80%;
-        font-size: .8rem;
-    }
-
+  .title {
+    width: 80%;
+    font-size: 0.8rem;
+  }
 }
 
 @media (max-width: 1024px) {
-    .boxGroup {
-        width: 90%;
-}
+  .boxGroup {
+    width: 90%;
+  }
 
-    .boxSection2,
-    .boxSection6 {
-        flex-direction: row-reverse;
-}
+  .boxSection2,
+  .boxSection6 {
+    flex-direction: row-reverse;
+  }
 
-.boxSection3{
+  .boxSection3 {
     flex-direction: row;
-}
-    .title {
-        width: 65%;
-        margin-top: 0rem;
-        margin-bottom: 1rem;
-    }
-
+  }
+  .title {
+    width: 65%;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+  }
 }
 
 @media (min-width: 560px) and (max-width: 768px) {
-    .title{
-        width: 100%;
-    }
+  .title {
+    width: 100%;
+  }
 }
 
-@media (max-width: 580px){
+@media (max-width: 580px) {
+  .boxGroup {
+    flex-direction: column;
+    justify-content: center;
+  }
 
-    .boxGroup{
-        flex-direction: column;
-        justify-content: center;
-    }
+  .box {
+    width: 80%;
+    padding: 0;
+    justify-content: center;
+  }
+  .box p {
+    display: none;
+  }
 
-    .box{
-        width: 80%;
-        padding: 0;
-        justify-content: center;
-    }
-    .box p {
-        display: none;
-    }
-
-    .title{
-        width: 45%;
-        margin-top: 2rem;
-        margin-bottom: -1rem;
-        z-index: 1;
-    }
+  .title {
+    width: 45%;
+    margin-top: 2rem;
+    margin-bottom: -1rem;
+    z-index: 1;
+  }
 }
 
 @media (max-width: 480px) {
-    .title{
-        width: 80%;
-    }
+  .title {
+    width: 80%;
+  }
 }
