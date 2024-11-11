@@ -26,7 +26,7 @@ const About = () => {
 
             <aside>
                 <p className='info'>
-                    My journey in web development began with a fascination for coding, and I've been joyfully navigating the realms of full stack technologies ever since. By day, I lead and mentor aspiring tech wizards in a full stack development bootcamp, turning complex coding puzzles into fun, approachable challenges. Every day is a celebration of new discoveries and 'Eureka!' moments, both for my students and myself.
+                    My journey through web development began with a fascination for coding, and I've been joyfully navigating the realms of full stack technologies ever since. By day, I lead and mentor aspiring tech wizards in a full stack development bootcamp, turning complex coding puzzles into fun, approachable challenges. Every day is a celebration of new discoveries and 'Eureka!' moments, both for my students and myself.
                 </p>
                 <p className='info'>
                     When the code rests, my adventurous spirit takes over. You might catch me traversing the galaxies of Star Trek, waving a wand in the world of Harry Potter, or diving deep into the realms of sci-fi and fantasy. I'm also a proud gamer, Disney buff, and a connoisseur of all things anime, manga, and graphic novels. 
