@@ -12,22 +12,21 @@ function App() {
   const Rendered = () => {
     switch (content) {
       case 'about':
-        return <About />
-        break;
+        return <About />;
       case 'portfolio':
-        return <Portfolio />
-        break;
+        return <Portfolio />;
       case 'contact':
-        return <Contact />
-        break;
+        return <Contact />;
       case 'resume':
-        return <Resume />
-        break;
+        return <Resume />;
+      default:
+        return <About />;
     }
-  }
+  };
   return (
-    <div className="App">
-      <Header content={content}
+    <div className='App'>
+      <Header
+        content={content}
         setContent={setContent}
       />
       <Rendered />
